@@ -1,0 +1,35 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <config>
+        <schedule model="example"/>
+    </config>
+    <Simulation argv="">
+        <SimFlow name="cosim" setup="false" dumpTrace="none" optimizeCompile="false" ldflags="-L/C:/Users/chris/Downloads/pure_mlx/user/tb/exp_hls/example/WpdPack/Lib -lpacket -lwpcap" mflags="" compiledLibrary="" reduce_diskspace="false" toolName="auto">
+            <Rtl name="systemc" active="false"/>
+            <Rtl name="verilog" active="true"/>
+            <Rtl name="vhdl" active="false"/>
+        </SimFlow>
+    </Simulation>
+    <ExportDesign askAgain="true" evaluate="true" rtl="verilog" formatName="ip_catalog">
+        <Format formatName="ip_catalog" description="" vendor="Mellanox" library="" version="1.0" driver_input_dir="" display_name="Example_hls_ver1" taxonomy=""/>
+    </ExportDesign>
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="example_hls"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xcku060:-ffva1156:-1l-i"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/kintexu/kintexu" name="DefaultPlatform"/>
+        <library value="xilinx/kintexu/kintexu_fpv7" name="DefaultPlatform"/>
+    </libraryList>
+    <downStreamTool>
+        <DownStreamTool name="vivado"/>
+    </downStreamTool>
+    <clockList>
+        <clock default="false" name="default" period="4.6"/>
+    </clockList>
+</AutoPilot:solution>
+

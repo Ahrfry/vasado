@@ -1,0 +1,243 @@
+
+
+================================================================
+== Vivado HLS Report for 'example'
+================================================================
+* Date:           Tue Oct 15 01:33:02 2019
+
+* Version:        2016.4 (Build 1756540 on Mon Jan 23 19:31:01 MST 2017)
+* Project:        example
+* Solution:       ku060_solution
+* Product family: kintexu
+* Target device:  xcku060-ffva1156-1l-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   4.60|      4.55|        0.00|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+------+-----+------+----------+
+    |   Latency  |  Interval  | Pipeline |
+    | min |  max | min |  max |   Type   |
+    +-----+------+-----+------+----------+
+    |   14|  4390|   15|  4391| dataflow |
+    +-----+------+-----+------+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 3
+* Pipeline: 0
+* Dataflow Pipeline: 1
+  DF-Pipeline-0: Size = 3, States = { 1 2 3 }
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+* FSM state operations: 
+
+ <State 1>: 2.39ns
+ST_1: StgValue_4 (106)  [2/2] 2.39ns
+codeRepl:38  call fastcc void @Block_codeRepl1510_p(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, i256* %sbu2prt_nw_V_data_V, i32* %sbu2prt_nw_V_keep_V, i1* %sbu2prt_nw_V_last_V, i3* %sbu2prt_nw_V_id_V, i12* %sbu2prt_nw_V_user_V, i256* %mlx2sbu_V_data_V, i32* %mlx2sbu_V_keep_V, i1* %mlx2sbu_V_last_V, i3* %mlx2sbu_V_id_V, i12* %mlx2sbu_V_user_V, i256* %sbu2mlx_V_data_V, i32* %sbu2mlx_V_keep_V, i1* %sbu2mlx_V_last_V, i3* %sbu2mlx_V_id_V, i12* %sbu2mlx_V_user_V, i256* %sbu2prt_cx_V_data_V, i32* %sbu2prt_cx_V_keep_V, i1* %sbu2prt_cx_V_last_V, i3* %sbu2prt_cx_V_id_V, i12* %sbu2prt_cx_V_user_V)
+
+
+ <State 2>: 0.00ns
+ST_2: StgValue_5 (106)  [1/2] 0.00ns
+codeRepl:38  call fastcc void @Block_codeRepl1510_p(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, i256* %sbu2prt_nw_V_data_V, i32* %sbu2prt_nw_V_keep_V, i1* %sbu2prt_nw_V_last_V, i3* %sbu2prt_nw_V_id_V, i12* %sbu2prt_nw_V_user_V, i256* %mlx2sbu_V_data_V, i32* %mlx2sbu_V_keep_V, i1* %mlx2sbu_V_last_V, i3* %mlx2sbu_V_id_V, i12* %mlx2sbu_V_user_V, i256* %sbu2mlx_V_data_V, i32* %sbu2mlx_V_keep_V, i1* %sbu2mlx_V_last_V, i3* %sbu2mlx_V_id_V, i12* %sbu2mlx_V_user_V, i256* %sbu2prt_cx_V_data_V, i32* %sbu2prt_cx_V_keep_V, i1* %sbu2prt_cx_V_last_V, i3* %sbu2prt_cx_V_id_V, i12* %sbu2prt_cx_V_user_V)
+
+
+ <State 3>: 0.00ns
+ST_3: StgValue_6 (68)  [1/1] 0.00ns  loc: example/example.cpp:495
+codeRepl:0  call void (...)* @_ssdm_op_SpecDataflowPipeline(i32 -1, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_7 (69)  [1/1] 0.00ns
+codeRepl:1  call void (...)* @_ssdm_op_SpecBitsMap(i256* %prt_nw2sbu_V_data_V), !map !298
+
+ST_3: StgValue_8 (70)  [1/1] 0.00ns
+codeRepl:2  call void (...)* @_ssdm_op_SpecBitsMap(i32* %prt_nw2sbu_V_keep_V), !map !304
+
+ST_3: StgValue_9 (71)  [1/1] 0.00ns
+codeRepl:3  call void (...)* @_ssdm_op_SpecBitsMap(i1* %prt_nw2sbu_V_last_V), !map !308
+
+ST_3: StgValue_10 (72)  [1/1] 0.00ns
+codeRepl:4  call void (...)* @_ssdm_op_SpecBitsMap(i3* %prt_nw2sbu_V_id_V), !map !312
+
+ST_3: StgValue_11 (73)  [1/1] 0.00ns
+codeRepl:5  call void (...)* @_ssdm_op_SpecBitsMap(i12* %prt_nw2sbu_V_user_V), !map !316
+
+ST_3: StgValue_12 (74)  [1/1] 0.00ns
+codeRepl:6  call void (...)* @_ssdm_op_SpecBitsMap(i256* %prt_cx2sbu_V_data_V), !map !320
+
+ST_3: StgValue_13 (75)  [1/1] 0.00ns
+codeRepl:7  call void (...)* @_ssdm_op_SpecBitsMap(i32* %prt_cx2sbu_V_keep_V), !map !324
+
+ST_3: StgValue_14 (76)  [1/1] 0.00ns
+codeRepl:8  call void (...)* @_ssdm_op_SpecBitsMap(i1* %prt_cx2sbu_V_last_V), !map !328
+
+ST_3: StgValue_15 (77)  [1/1] 0.00ns
+codeRepl:9  call void (...)* @_ssdm_op_SpecBitsMap(i3* %prt_cx2sbu_V_id_V), !map !332
+
+ST_3: StgValue_16 (78)  [1/1] 0.00ns
+codeRepl:10  call void (...)* @_ssdm_op_SpecBitsMap(i12* %prt_cx2sbu_V_user_V), !map !336
+
+ST_3: StgValue_17 (79)  [1/1] 0.00ns
+codeRepl:11  call void (...)* @_ssdm_op_SpecBitsMap(i256* %mlx2sbu_V_data_V), !map !340
+
+ST_3: StgValue_18 (80)  [1/1] 0.00ns
+codeRepl:12  call void (...)* @_ssdm_op_SpecBitsMap(i32* %mlx2sbu_V_keep_V), !map !344
+
+ST_3: StgValue_19 (81)  [1/1] 0.00ns
+codeRepl:13  call void (...)* @_ssdm_op_SpecBitsMap(i1* %mlx2sbu_V_last_V), !map !348
+
+ST_3: StgValue_20 (82)  [1/1] 0.00ns
+codeRepl:14  call void (...)* @_ssdm_op_SpecBitsMap(i3* %mlx2sbu_V_id_V), !map !352
+
+ST_3: StgValue_21 (83)  [1/1] 0.00ns
+codeRepl:15  call void (...)* @_ssdm_op_SpecBitsMap(i12* %mlx2sbu_V_user_V), !map !356
+
+ST_3: StgValue_22 (84)  [1/1] 0.00ns
+codeRepl:16  call void (...)* @_ssdm_op_SpecBitsMap(i256* %sbu2prt_cx_V_data_V), !map !360
+
+ST_3: StgValue_23 (85)  [1/1] 0.00ns
+codeRepl:17  call void (...)* @_ssdm_op_SpecBitsMap(i32* %sbu2prt_cx_V_keep_V), !map !364
+
+ST_3: StgValue_24 (86)  [1/1] 0.00ns
+codeRepl:18  call void (...)* @_ssdm_op_SpecBitsMap(i1* %sbu2prt_cx_V_last_V), !map !368
+
+ST_3: StgValue_25 (87)  [1/1] 0.00ns
+codeRepl:19  call void (...)* @_ssdm_op_SpecBitsMap(i3* %sbu2prt_cx_V_id_V), !map !372
+
+ST_3: StgValue_26 (88)  [1/1] 0.00ns
+codeRepl:20  call void (...)* @_ssdm_op_SpecBitsMap(i12* %sbu2prt_cx_V_user_V), !map !376
+
+ST_3: StgValue_27 (89)  [1/1] 0.00ns
+codeRepl:21  call void (...)* @_ssdm_op_SpecBitsMap(i256* %sbu2prt_nw_V_data_V), !map !380
+
+ST_3: StgValue_28 (90)  [1/1] 0.00ns
+codeRepl:22  call void (...)* @_ssdm_op_SpecBitsMap(i32* %sbu2prt_nw_V_keep_V), !map !384
+
+ST_3: StgValue_29 (91)  [1/1] 0.00ns
+codeRepl:23  call void (...)* @_ssdm_op_SpecBitsMap(i1* %sbu2prt_nw_V_last_V), !map !388
+
+ST_3: StgValue_30 (92)  [1/1] 0.00ns
+codeRepl:24  call void (...)* @_ssdm_op_SpecBitsMap(i3* %sbu2prt_nw_V_id_V), !map !392
+
+ST_3: StgValue_31 (93)  [1/1] 0.00ns
+codeRepl:25  call void (...)* @_ssdm_op_SpecBitsMap(i12* %sbu2prt_nw_V_user_V), !map !396
+
+ST_3: StgValue_32 (94)  [1/1] 0.00ns
+codeRepl:26  call void (...)* @_ssdm_op_SpecBitsMap(i256* %sbu2mlx_V_data_V), !map !400
+
+ST_3: StgValue_33 (95)  [1/1] 0.00ns
+codeRepl:27  call void (...)* @_ssdm_op_SpecBitsMap(i32* %sbu2mlx_V_keep_V), !map !404
+
+ST_3: StgValue_34 (96)  [1/1] 0.00ns
+codeRepl:28  call void (...)* @_ssdm_op_SpecBitsMap(i1* %sbu2mlx_V_last_V), !map !408
+
+ST_3: StgValue_35 (97)  [1/1] 0.00ns
+codeRepl:29  call void (...)* @_ssdm_op_SpecBitsMap(i3* %sbu2mlx_V_id_V), !map !412
+
+ST_3: StgValue_36 (98)  [1/1] 0.00ns
+codeRepl:30  call void (...)* @_ssdm_op_SpecBitsMap(i12* %sbu2mlx_V_user_V), !map !416
+
+ST_3: StgValue_37 (99)  [1/1] 0.00ns
+codeRepl:31  call void (...)* @_ssdm_op_SpecTopModule([8 x i8]* @example_str) nounwind
+
+ST_3: StgValue_38 (100)  [1/1] 0.00ns  loc: example/example.cpp:497
+codeRepl:32  call void (...)* @_ssdm_op_SpecInterface(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_39 (101)  [1/1] 0.00ns  loc: example/example.cpp:498
+codeRepl:33  call void (...)* @_ssdm_op_SpecInterface(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_40 (102)  [1/1] 0.00ns  loc: example/example.cpp:499
+codeRepl:34  call void (...)* @_ssdm_op_SpecInterface(i256* %sbu2prt_nw_V_data_V, i32* %sbu2prt_nw_V_keep_V, i1* %sbu2prt_nw_V_last_V, i3* %sbu2prt_nw_V_id_V, i12* %sbu2prt_nw_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_41 (103)  [1/1] 0.00ns  loc: example/example.cpp:500
+codeRepl:35  call void (...)* @_ssdm_op_SpecInterface(i256* %sbu2prt_cx_V_data_V, i32* %sbu2prt_cx_V_keep_V, i1* %sbu2prt_cx_V_last_V, i3* %sbu2prt_cx_V_id_V, i12* %sbu2prt_cx_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_42 (104)  [1/1] 0.00ns  loc: example/example.cpp:501
+codeRepl:36  call void (...)* @_ssdm_op_SpecInterface(i256* %sbu2mlx_V_data_V, i32* %sbu2mlx_V_keep_V, i1* %sbu2mlx_V_last_V, i3* %sbu2mlx_V_id_V, i12* %sbu2mlx_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_43 (105)  [1/1] 0.00ns  loc: example/example.cpp:502
+codeRepl:37  call void (...)* @_ssdm_op_SpecInterface(i256* %mlx2sbu_V_data_V, i32* %mlx2sbu_V_keep_V, i1* %mlx2sbu_V_last_V, i3* %mlx2sbu_V_id_V, i12* %mlx2sbu_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_3: StgValue_44 (107)  [1/1] 0.00ns  loc: example/example.cpp:528
+codeRepl:39  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 4.6ns, clock uncertainty: 0ns.
+
+ <State 1>: 2.39ns
+The critical path consists of the following:
+	'call' operation to 'Block_codeRepl1510_p' [106]  (2.39 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="example" xd:componentRef="example" xd:initiationInterval="4196" xd:clockPeriod="4.600000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="prt_nw2sbu.data" xd:originalName="prt_nw2sbu" xd:direction="in" xd:interfaceRef="prt_nw2sbu" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="prt_nw2sbu.keep" xd:originalName="prt_nw2sbu" xd:direction="in" xd:interfaceRef="prt_nw2sbu" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="prt_nw2sbu.last" xd:originalName="prt_nw2sbu" xd:direction="in" xd:interfaceRef="prt_nw2sbu" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="prt_nw2sbu.id" xd:originalName="prt_nw2sbu" xd:direction="in" xd:interfaceRef="prt_nw2sbu" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="prt_nw2sbu.user" xd:originalName="prt_nw2sbu" xd:direction="in" xd:interfaceRef="prt_nw2sbu" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:arg xd:name="prt_cx2sbu.data" xd:originalName="prt_cx2sbu" xd:direction="in" xd:interfaceRef="prt_cx2sbu" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="prt_cx2sbu.keep" xd:originalName="prt_cx2sbu" xd:direction="in" xd:interfaceRef="prt_cx2sbu" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="prt_cx2sbu.last" xd:originalName="prt_cx2sbu" xd:direction="in" xd:interfaceRef="prt_cx2sbu" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="prt_cx2sbu.id" xd:originalName="prt_cx2sbu" xd:direction="in" xd:interfaceRef="prt_cx2sbu" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="prt_cx2sbu.user" xd:originalName="prt_cx2sbu" xd:direction="in" xd:interfaceRef="prt_cx2sbu" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:arg xd:name="mlx2sbu.data" xd:originalName="mlx2sbu" xd:direction="in" xd:interfaceRef="mlx2sbu" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="mlx2sbu.keep" xd:originalName="mlx2sbu" xd:direction="in" xd:interfaceRef="mlx2sbu" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="mlx2sbu.last" xd:originalName="mlx2sbu" xd:direction="in" xd:interfaceRef="mlx2sbu" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="mlx2sbu.id" xd:originalName="mlx2sbu" xd:direction="in" xd:interfaceRef="mlx2sbu" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="mlx2sbu.user" xd:originalName="mlx2sbu" xd:direction="in" xd:interfaceRef="mlx2sbu" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:arg xd:name="sbu2prt_cx.data" xd:originalName="sbu2prt_cx" xd:direction="out" xd:interfaceRef="sbu2prt_cx" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="sbu2prt_cx.keep" xd:originalName="sbu2prt_cx" xd:direction="out" xd:interfaceRef="sbu2prt_cx" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="sbu2prt_cx.last" xd:originalName="sbu2prt_cx" xd:direction="out" xd:interfaceRef="sbu2prt_cx" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="sbu2prt_cx.id" xd:originalName="sbu2prt_cx" xd:direction="out" xd:interfaceRef="sbu2prt_cx" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="sbu2prt_cx.user" xd:originalName="sbu2prt_cx" xd:direction="out" xd:interfaceRef="sbu2prt_cx" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:arg xd:name="sbu2prt_nw.data" xd:originalName="sbu2prt_nw" xd:direction="out" xd:interfaceRef="sbu2prt_nw" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="sbu2prt_nw.keep" xd:originalName="sbu2prt_nw" xd:direction="out" xd:interfaceRef="sbu2prt_nw" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="sbu2prt_nw.last" xd:originalName="sbu2prt_nw" xd:direction="out" xd:interfaceRef="sbu2prt_nw" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="sbu2prt_nw.id" xd:originalName="sbu2prt_nw" xd:direction="out" xd:interfaceRef="sbu2prt_nw" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="sbu2prt_nw.user" xd:originalName="sbu2prt_nw" xd:direction="out" xd:interfaceRef="sbu2prt_nw" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:arg xd:name="sbu2mlx.data" xd:originalName="sbu2mlx" xd:direction="out" xd:interfaceRef="sbu2mlx" xd:busTypeRef="axis" xd:dataWidth="256"/>
+  <xd:arg xd:name="sbu2mlx.keep" xd:originalName="sbu2mlx" xd:direction="out" xd:interfaceRef="sbu2mlx" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="sbu2mlx.last" xd:originalName="sbu2mlx" xd:direction="out" xd:interfaceRef="sbu2mlx" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="sbu2mlx.id" xd:originalName="sbu2mlx" xd:direction="out" xd:interfaceRef="sbu2mlx" xd:busTypeRef="axis" xd:dataWidth="3"/>
+  <xd:arg xd:name="sbu2mlx.user" xd:originalName="sbu2mlx" xd:direction="out" xd:interfaceRef="sbu2mlx" xd:busTypeRef="axis" xd:dataWidth="12"/>
+  <xd:latencyEstimates xd:best-case="11" xd:worst-case="4195" xd:average-case="2078"/>
+  <xd:resourceEstimates xd:LUT="11047" xd:FF="7194" xd:BRAM="84" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,22 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="ku060_solution"/>
+    </name>
+    <project>
+        <value string="example"/>
+    </project>
+    <targetInfo>
+        <TargetInfo value="xcku060:-ffva1156:-1l-i"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/kintexu/kintexu" name="DefaultPlatform"/>
+        <library value="xilinx/kintexu/kintexu_fpv7" name="DefaultPlatform"/>
+    </libraryList>
+    <downStreamTool>
+        <DownStreamTool name="vivado"/>
+    </downStreamTool>
+    <clockList>
+        <clock default="false" name="default" uncertainty="0" period="4.6"/>
+    </clockList>
+</AutoPilot:solution>
+

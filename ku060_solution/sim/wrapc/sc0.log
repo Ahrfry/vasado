@@ -1,0 +1,6 @@
+   Build using "/opt/Xilinx/Vivado_HLS/2016.4/lnx64/tools/gcc/bin/g++"
+   Compiling udp.cpp_pre.cpp.tb.cpp
+   Compiling hlsTb.cpp_pre.cpp.tb.cpp
+   Compiling example.cpp_pre.cpp.tb.cpp
+   Compiling apatb_example.cpp
+   Generating cosim.tv.exe

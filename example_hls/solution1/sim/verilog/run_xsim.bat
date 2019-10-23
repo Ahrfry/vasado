@@ -1,0 +1,4 @@
+
+call xelab xil_defaultlib.apatb_example_top -prj example.prj --initfile "C:/Xilinx/Vivado/2016.2/bin/../data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s example 
+call xsim --noieeewarnings example -tclbatch example.tcl
+

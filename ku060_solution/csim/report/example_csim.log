@@ -1,0 +1,575 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../hlsTb.cpp in debug mode
+   Compiling ../../../example.cpp in debug mode
+   Compiling ../../../iot_template.cpp in debug mode
+   Compiling ../../../topic.cpp in debug mode
+   Compiling ../../../udp.cpp in debug mode
+   Generating csim.exe
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+request type 115
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 49
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 40
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 44
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 58
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 57
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 41
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 47
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 47
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 47
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 59
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 59
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 58
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 57
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 47
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 40
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 43
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 47
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 41
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 49
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 44
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 57
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 58
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 43
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 49
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 40
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 58
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 49
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 45 val 41
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 49 val 48
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 44
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 54 val 59
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 46 val 42
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 47 val 45
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+Not filtered by range
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 56
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 48 val 46
+request type 112
+created this
+this is a pub
+filtered by range
+------------
+K 0.5 P 0.5 x_hat 53 val 57
+request type 112
+pub 0 sub 0 filter 0
+capture finished
+Success: HW and SW results match
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

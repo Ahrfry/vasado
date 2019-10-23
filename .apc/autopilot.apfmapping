@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="example.cpp" path="/home/ahrfry/example/example.cpp"/>
+    <originFiles name="hls_helper.h" path="/home/ahrfry/example/hls_helper.h"/>
+    <originFiles name="iot_template.cpp" path="/home/ahrfry/example/iot_template.cpp"/>
+    <originFiles name="iot_template.h" path="/home/ahrfry/example/iot_template.h"/>
+    <originFiles name="topic.cpp" path="/home/ahrfry/example/topic.cpp"/>
+    <originFiles name="topic.h" path="/home/ahrfry/example/topic.h"/>
+    <originFiles name="udp.cpp" path="/home/ahrfry/example/udp.cpp"/>
+    <originFiles name="udp.h" path="/home/ahrfry/example/udp.h"/>
+    <originFiles name="globals.hpp" path="/home/ahrfry/example/globals.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="hlsTb.cpp" path="/home/ahrfry/example/hlsTb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

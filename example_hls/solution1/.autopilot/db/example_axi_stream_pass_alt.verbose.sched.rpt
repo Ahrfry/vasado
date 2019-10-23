@@ -1,0 +1,140 @@
+
+
+================================================================
+== Vivado HLS Report for 'example_axi_stream_pass_alt'
+================================================================
+* Date:           Thu Sep 05 20:34:07 2019
+
+* Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
+* Project:        example_hls
+* Solution:       solution1
+* Product family: kintexu
+* Target device:  xcku060-ffva1156-1l-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   4.60|      0.00|        0.57|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    0|    0|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 1
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+* FSM state operations: 
+
+ <State 1>: 0.00ns
+ST_1: stg_2 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecInterface(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_1: stg_3 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecInterface(i256* %Out_V_data_V, i32* %Out_V_keep_V, i1* %Out_V_last_V, i3* %Out_V_id_V, i12* %Out_V_user_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_1: tmp [1/1] 0.00ns
+:2  %tmp = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V, i32 1)
+
+ST_1: stg_5 [1/1] 0.00ns
+:3  br i1 %tmp, label %1, label %._crit_edge
+
+ST_1: empty [1/1] 0.00ns
+:0  %empty = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V)
+
+ST_1: tmp_data_V [1/1] 0.00ns
+:1  %tmp_data_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 0
+
+ST_1: tmp_keep_V [1/1] 0.00ns
+:2  %tmp_keep_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 1
+
+ST_1: tmp_last_V [1/1] 0.00ns
+:3  %tmp_last_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 2
+
+ST_1: tmp_id_V [1/1] 0.00ns
+:4  %tmp_id_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 3
+
+ST_1: tmp_user_V [1/1] 0.00ns
+:5  %tmp_user_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 4
+
+ST_1: stg_12 [1/1] 0.00ns
+:6  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %Out_V_data_V, i32* %Out_V_keep_V, i1* %Out_V_last_V, i3* %Out_V_id_V, i12* %Out_V_user_V, i256 %tmp_data_V, i32 %tmp_keep_V, i1 %tmp_last_V, i3 %tmp_id_V, i12 %tmp_user_V)
+
+ST_1: stg_13 [1/1] 0.00ns
+:7  br label %._crit_edge
+
+ST_1: stg_14 [1/1] 0.00ns
+._crit_edge:0  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 4.6ns, clock uncertainty: 0.575ns.
+
+ No timing violations. 
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

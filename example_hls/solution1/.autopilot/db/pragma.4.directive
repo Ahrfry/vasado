@@ -1,0 +1,49 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="axi_stream_pass" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="axi_stream_pass" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="DATAFLOW"/>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="prt_nw2sbu"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="prt_cx2sbu"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2prt_nw"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2prt_cx"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2mlx"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="mlx2sbu"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

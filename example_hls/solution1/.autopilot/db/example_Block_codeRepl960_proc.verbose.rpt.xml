@@ -1,0 +1,360 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'example_Block_codeRepl960_proc'" level="0">
+<item name = "Date">Mon Sep 02 14:50:51 2019
+</item>
+<item name = "Version">2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)</item>
+<item name = "Project">example_hls</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">kintexu</item>
+<item name = "Target device">xcku060-ffva1156-1l-i</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">4.60, 3.49, 0.57</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">4, 16, 4, 16, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="stg_414_example_axi_stream_pass_alt_fu_895">example_axi_stream_pass_alt, 0, 0, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">4, 4, 2, -, -, 2, no</column>
+<column name="- Loop 2">1, 2, 1, -, -, 1 ~ 2, no</column>
+<column name="- Loop 3">4, 4, 2, -, -, 2, no</column>
+<column name="- Loop 4">1, 2, 1, -, -, 1 ~ 2, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 153</column>
+<column name="FIFO">60, -, 1200, 1192</column>
+<column name="Instance">-, -, 2, 5</column>
+<column name="Memory">-, -, -, -</column>
+<column name="Multiplexer">-, -, -, 3394</column>
+<column name="Register">-, -, 379, -</column>
+<specialColumn name="Available">2160, 2760, 663360, 331680</specialColumn>
+<specialColumn name="Utilization (%)">2, 0, ~0, 1</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="stg_414_example_axi_stream_pass_alt_fu_895">example_axi_stream_pass_alt, 0, 0, 2, 5</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+<column name="merger_host_0_V_data_V_merger_host_0_V_data_V_fifo_U">15, 272, 182, 16, 256, 4096</column>
+<column name="merger_host_0_V_id_V_merger_host_0_V_id_V_fifo_U">0, 7, 20, 16, 3, 48</column>
+<column name="merger_host_0_V_keep_V_merger_host_0_V_keep_V_fifo_U">0, 7, 48, 16, 32, 512</column>
+<column name="merger_host_0_V_last_V_merger_host_0_V_last_V_fifo_U">0, 7, 20, 16, 1, 16</column>
+<column name="merger_host_0_V_user_V_merger_host_0_V_user_V_fifo_U">0, 7, 28, 16, 12, 192</column>
+<column name="merger_host_1_V_data_V_merger_host_1_V_data_V_fifo_U">15, 272, 182, 16, 256, 4096</column>
+<column name="merger_host_1_V_id_V_merger_host_1_V_id_V_fifo_U">0, 7, 20, 16, 3, 48</column>
+<column name="merger_host_1_V_keep_V_merger_host_1_V_keep_V_fifo_U">0, 7, 48, 16, 32, 512</column>
+<column name="merger_host_1_V_last_V_merger_host_1_V_last_V_fifo_U">0, 7, 20, 16, 1, 16</column>
+<column name="merger_host_1_V_user_V_merger_host_1_V_user_V_fifo_U">0, 7, 28, 16, 12, 192</column>
+<column name="merger_network_0_V_data_V_merger_network_0_V_data_V_fifo_U">15, 272, 182, 16, 256, 4096</column>
+<column name="merger_network_0_V_id_V_merger_network_0_V_id_V_fifo_U">0, 7, 20, 16, 3, 48</column>
+<column name="merger_network_0_V_keep_V_merger_network_0_V_keep_V_fifo_U">0, 7, 48, 16, 32, 512</column>
+<column name="merger_network_0_V_last_V_merger_network_0_V_last_V_fifo_U">0, 7, 20, 16, 1, 16</column>
+<column name="merger_network_0_V_user_V_merger_network_0_V_user_V_fifo_U">0, 7, 28, 16, 12, 192</column>
+<column name="merger_network_1_V_data_V_merger_network_1_V_data_V_fifo_U">15, 272, 182, 16, 256, 4096</column>
+<column name="merger_network_1_V_id_V_merger_network_1_V_id_V_fifo_U">0, 7, 20, 16, 3, 48</column>
+<column name="merger_network_1_V_keep_V_merger_network_1_V_keep_V_fifo_U">0, 7, 48, 16, 32, 512</column>
+<column name="merger_network_1_V_last_V_merger_network_1_V_last_V_fifo_U">0, 7, 20, 16, 1, 16</column>
+<column name="merger_network_1_V_user_V_merger_network_1_V_user_V_fifo_U">0, 7, 28, 16, 12, 192</column>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_fu_1591_p2">+, 0, 0, 2, 2, 1</column>
+<column name="i_fu_1442_p2">+, 0, 0, 2, 2, 1</column>
+<column name="k_1_fu_1540_p2">+, 0, 0, 2, 2, 1</column>
+<column name="k_fu_1391_p2">+, 0, 0, 2, 2, 1</column>
+<column name="tempCtr_1_fu_1606_p2">+, 0, 0, 3, 3, 3</column>
+<column name="tempCtr_fu_1457_p2">+, 0, 0, 3, 3, 3</column>
+<column name="tmp_21_fu_1452_p2">+, 0, 0, 2, 2, 2</column>
+<column name="tmp_29_fu_1601_p2">+, 0, 0, 2, 2, 2</column>
+<column name="tmp_8_fu_1159_p2">+, 0, 0, 16, 16, 1</column>
+<column name="ap_sig_1084">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1088">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1098">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1102">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1186">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1205">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1861">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1862">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1864">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1871">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1873">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1877">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1880">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_1902">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_203">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_204">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_209">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_210">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_214">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_215">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_219">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_312">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_369">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_416">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_482">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_520">and, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_592">and, 0, 0, 1, 1, 1</column>
+<column name="grp_nbreadreq_fu_316_p7">and, 0, 0, 1, 1, 0</column>
+<column name="grp_nbreadreq_fu_374_p7">and, 0, 0, 1, 1, 0</column>
+<column name="grp_nbreadreq_fu_432_p7">and, 0, 0, 1, 1, 1</column>
+<column name="grp_nbreadreq_fu_443_p7">and, 0, 0, 1, 1, 1</column>
+<column name="grp_nbreadreq_fu_491_p7">and, 0, 0, 1, 1, 1</column>
+<column name="grp_nbreadreq_fu_502_p7">and, 0, 0, 1, 1, 1</column>
+<column name="merger_host_0_V_id_V1_status">and, 0, 0, 1, 1, 1</column>
+<column name="merger_host_1_V_id_V1_status">and, 0, 0, 1, 1, 1</column>
+<column name="merger_network_0_V_id_V1_status">and, 0, 0, 1, 1, 1</column>
+<column name="merger_network_1_V_id_V1_status">and, 0, 0, 1, 1, 1</column>
+<column name="exitcond_i1_fu_1534_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="exitcond_i_fu_1385_p2">icmp, 0, 0, 2, 2, 3</column>
+<column name="icmp1_fu_1621_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="icmp_fu_1472_p2">icmp, 0, 0, 1, 2, 1</column>
+<column name="tmp_10_fu_1330_p2">icmp, 0, 0, 3, 8, 5</column>
+<column name="tmp_5_fu_1205_p2">icmp, 0, 0, 6, 16, 12</column>
+<column name="tmp_7_fu_1314_p2">icmp, 0, 0, 6, 16, 12</column>
+<column name="tmp_9_fu_1175_p2">icmp, 0, 0, 6, 16, 13</column>
+<column name="tmp_s_fu_1221_p2">icmp, 0, 0, 3, 8, 5</column>
+<column name="ap_sig_1069">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_147">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_258">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_269">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_282">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_291">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_309">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_407">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_442">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_451">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_510">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_511">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_540">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_597">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_623">or, 0, 0, 1, 1, 1</column>
+<column name="ap_sig_640">or, 0, 0, 1, 1, 1</column>
+<column name="p_tmp_8_fu_1181_p3">select, 0, 0, 16, 1, 1</column>
+<column name="stream_empty_0_0954_stream_emp_fu_1417_p3">select, 0, 0, 1, 1, 1</column>
+<column name="stream_empty_110_0_stream_empt_fu_1410_p3">select, 0, 0, 1, 1, 1</column>
+<column name="stream_empty_1_0_0952_stream_e_fu_1566_p3">select, 0, 0, 1, 1, 1</column>
+<column name="stream_empty_1_1_0_stream_empt_fu_1559_p3">select, 0, 0, 1, 1, 1</column>
+<column name="stream_empty_1_load_phi_fu_1645_p3">select, 0, 0, 1, 1, 1</column>
+<column name="stream_empty_load_phi_fu_1496_p3">select, 0, 0, 1, 1, 1</column>
+<column name="tmp_16_fu_1484_p3">select, 0, 0, 2, 1, 2</column>
+<column name="tmp_32_fu_1633_p3">select, 0, 0, 2, 1, 2</column>
+<column name="stream_empty_1_1_fu_1553_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="stream_empty_1_fu_1404_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="tmp_11_fu_1478_p2">xor, 0, 0, 3, 2, 3</column>
+<column name="tmp_31_fu_1627_p2">xor, 0, 0, 3, 2, 3</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="DetectState">2, 2, 2, 4</column>
+<column name="DetectState_1">2, 2, 2, 4</column>
+<column name="ap_NS_fsm">4, 11, 1, 11</column>
+<column name="ap_sig_ioackin_sbu2prt_cx_TREADY">1, 2, 1, 2</column>
+<column name="ap_sig_ioackin_sbu2prt_nw_TREADY">1, 2, 1, 2</column>
+<column name="i_op_assign_1_reg_774">2, 2, 2, 4</column>
+<column name="i_op_assign_reg_634">2, 2, 2, 4</column>
+<column name="k_0_i1_reg_754">2, 2, 2, 4</column>
+<column name="k_0_i_reg_614">2, 2, 2, 4</column>
+<column name="merger_host_0_V_data_V_din">256, 3, 256, 768</column>
+<column name="merger_host_1_V_data_V_din">256, 4, 256, 1024</column>
+<column name="merger_network_0_V_data_V_din">256, 4, 256, 1024</column>
+<column name="merger_network_1_V_data_V_din">256, 3, 256, 768</column>
+<column name="mlx2sbu_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="prt_cx2sbu_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="prt_nw2sbu_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="reply_1_loc_phi_fu_585_p4">1, 3, 1, 3</column>
+<column name="reply_loc_phi_fu_553_p4">1, 3, 1, 3</column>
+<column name="sbu2mlx_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="sbu2prt_cx_TDATA">256, 3, 256, 768</column>
+<column name="sbu2prt_cx_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="sbu2prt_cx_TID">3, 3, 3, 9</column>
+<column name="sbu2prt_cx_TKEEP">32, 3, 32, 96</column>
+<column name="sbu2prt_cx_TLAST">1, 3, 1, 3</column>
+<column name="sbu2prt_cx_TUSER">12, 3, 12, 36</column>
+<column name="sbu2prt_nw_TDATA">256, 3, 256, 768</column>
+<column name="sbu2prt_nw_TDATA_blk_n">1, 2, 1, 2</column>
+<column name="sbu2prt_nw_TID">3, 3, 3, 9</column>
+<column name="sbu2prt_nw_TKEEP">32, 3, 32, 96</column>
+<column name="sbu2prt_nw_TLAST">1, 3, 1, 3</column>
+<column name="sbu2prt_nw_TUSER">12, 3, 12, 36</column>
+<column name="storemerge_i9_phi_fu_606_p4">2, 3, 2, 6</column>
+<column name="storemerge_i_phi_fu_574_p4">2, 3, 2, 6</column>
+<column name="tmp_15_reg_695">1, 2, 1, 2</column>
+<column name="tmp_22_reg_625">1, 2, 1, 2</column>
+<column name="tmp_25_reg_885">1, 2, 1, 2</column>
+<column name="tmp_34_reg_765">1, 2, 1, 2</column>
+<column name="tmp_data_V_10_phi_fu_747_p4">256, 3, 256, 768</column>
+<column name="tmp_data_V_13_phi_fu_688_p4">256, 3, 256, 768</column>
+<column name="tmp_data_V_16_reg_875">256, 2, 256, 512</column>
+<column name="tmp_data_V_19_phi_fu_828_p4">256, 3, 256, 768</column>
+<column name="tmp_data_V_1_phi_fu_563_p4">256, 3, 256, 768</column>
+<column name="tmp_data_V_7_phi_fu_595_p4">256, 3, 256, 768</column>
+<column name="tmp_id_V_12_phi_fu_717_p4">3, 3, 3, 9</column>
+<column name="tmp_id_V_15_phi_fu_658_p4">3, 3, 3, 9</column>
+<column name="tmp_id_V_18_reg_845">3, 2, 3, 6</column>
+<column name="tmp_id_V_21_phi_fu_798_p4">3, 3, 3, 9</column>
+<column name="tmp_keep_V_12_phi_fu_737_p4">32, 3, 32, 96</column>
+<column name="tmp_keep_V_15_phi_fu_678_p4">32, 3, 32, 96</column>
+<column name="tmp_keep_V_18_reg_865">32, 2, 32, 64</column>
+<column name="tmp_keep_V_21_phi_fu_818_p4">32, 3, 32, 96</column>
+<column name="tmp_last_V_12_phi_fu_727_p4">1, 3, 1, 3</column>
+<column name="tmp_last_V_15_phi_fu_668_p4">1, 3, 1, 3</column>
+<column name="tmp_last_V_18_reg_855">1, 2, 1, 2</column>
+<column name="tmp_last_V_21_phi_fu_808_p4">1, 3, 1, 3</column>
+<column name="tmp_user_V_12_phi_fu_707_p4">12, 3, 12, 36</column>
+<column name="tmp_user_V_15_phi_fu_648_p4">12, 3, 12, 36</column>
+<column name="tmp_user_V_18_reg_835">12, 2, 12, 24</column>
+<column name="tmp_user_V_21_phi_fu_788_p4">12, 3, 12, 36</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="DetectState">2, 0, 2, 0</column>
+<column name="DetectState_1">2, 0, 2, 0</column>
+<column name="ap_CS_fsm">10, 0, 10, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_reg_ioackin_sbu2prt_cx_TREADY">1, 0, 1, 0</column>
+<column name="ap_reg_ioackin_sbu2prt_nw_TREADY">1, 0, 1, 0</column>
+<column name="count_V">16, 0, 16, 0</column>
+<column name="i_op_assign_1_reg_774">2, 0, 2, 0</column>
+<column name="i_op_assign_reg_634">2, 0, 2, 0</column>
+<column name="k_0_i1_reg_754">2, 0, 2, 0</column>
+<column name="k_0_i_reg_614">2, 0, 2, 0</column>
+<column name="k_1_reg_1983">2, 0, 2, 0</column>
+<column name="k_reg_1894">2, 0, 2, 0</column>
+<column name="mergeState">1, 0, 1, 0</column>
+<column name="mergeState_1">1, 0, 1, 0</column>
+<column name="mergeState_1_load_reg_1934">1, 0, 1, 0</column>
+<column name="mergeState_load_reg_1865">1, 0, 1, 0</column>
+<column name="reply">1, 0, 1, 0</column>
+<column name="reply_1">1, 0, 1, 0</column>
+<column name="streamSource_V">2, 0, 2, 0</column>
+<column name="streamSource_V_1">2, 0, 2, 0</column>
+<column name="streamSource_V_1_load_reg_1869">2, 0, 2, 0</column>
+<column name="streamSource_V_load_reg_1938">2, 0, 2, 0</column>
+<column name="stream_empty_0_s_fu_300">1, 0, 1, 0</column>
+<column name="stream_empty_110_s_fu_304">1, 0, 1, 0</column>
+<column name="stream_empty_1_0_s_fu_308">1, 0, 1, 0</column>
+<column name="stream_empty_1_1_s_fu_312">1, 0, 1, 0</column>
+<column name="tmp_12_reg_1887">1, 0, 1, 0</column>
+<column name="tmp_13_cast_reg_1915">2, 0, 3, 1</column>
+<column name="tmp_15_reg_695">1, 0, 1, 0</column>
+<column name="tmp_17_reg_1899">1, 0, 1, 0</column>
+<column name="tmp_22_reg_625">1, 0, 1, 0</column>
+<column name="tmp_25_reg_885">1, 0, 1, 0</column>
+<column name="tmp_33_reg_1956">1, 0, 1, 0</column>
+<column name="tmp_34_reg_765">1, 0, 1, 0</column>
+<column name="tmp_35_reg_1988">1, 0, 1, 0</column>
+<column name="tmp_37_cast_reg_2004">2, 0, 3, 1</column>
+<column name="tmp_data_V_16_reg_875">256, 0, 256, 0</column>
+<column name="tmp_id_V_18_reg_845">3, 0, 3, 0</column>
+<column name="tmp_keep_V_18_reg_865">32, 0, 32, 0</column>
+<column name="tmp_last_V_18_reg_855">1, 0, 1, 0</column>
+<column name="tmp_user_V_18_reg_835">12, 0, 12, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, example_Block_codeRepl960_proc, return value</column>
+<column name="prt_nw2sbu_TDATA">in, 256, axis, prt_nw2sbu_V_data_V, pointer</column>
+<column name="prt_nw2sbu_TVALID">in, 1, axis, prt_nw2sbu_V_user_V, pointer</column>
+<column name="prt_nw2sbu_TREADY">out, 1, axis, prt_nw2sbu_V_user_V, pointer</column>
+<column name="prt_nw2sbu_TUSER">in, 12, axis, prt_nw2sbu_V_user_V, pointer</column>
+<column name="prt_nw2sbu_TKEEP">in, 32, axis, prt_nw2sbu_V_keep_V, pointer</column>
+<column name="prt_nw2sbu_TLAST">in, 1, axis, prt_nw2sbu_V_last_V, pointer</column>
+<column name="prt_nw2sbu_TID">in, 3, axis, prt_nw2sbu_V_id_V, pointer</column>
+<column name="prt_cx2sbu_TDATA">in, 256, axis, prt_cx2sbu_V_data_V, pointer</column>
+<column name="prt_cx2sbu_TVALID">in, 1, axis, prt_cx2sbu_V_user_V, pointer</column>
+<column name="prt_cx2sbu_TREADY">out, 1, axis, prt_cx2sbu_V_user_V, pointer</column>
+<column name="prt_cx2sbu_TUSER">in, 12, axis, prt_cx2sbu_V_user_V, pointer</column>
+<column name="prt_cx2sbu_TKEEP">in, 32, axis, prt_cx2sbu_V_keep_V, pointer</column>
+<column name="prt_cx2sbu_TLAST">in, 1, axis, prt_cx2sbu_V_last_V, pointer</column>
+<column name="prt_cx2sbu_TID">in, 3, axis, prt_cx2sbu_V_id_V, pointer</column>
+<column name="mlx2sbu_TDATA">in, 256, axis, mlx2sbu_V_data_V, pointer</column>
+<column name="mlx2sbu_TVALID">in, 1, axis, mlx2sbu_V_user_V, pointer</column>
+<column name="mlx2sbu_TREADY">out, 1, axis, mlx2sbu_V_user_V, pointer</column>
+<column name="mlx2sbu_TUSER">in, 12, axis, mlx2sbu_V_user_V, pointer</column>
+<column name="mlx2sbu_TKEEP">in, 32, axis, mlx2sbu_V_keep_V, pointer</column>
+<column name="mlx2sbu_TLAST">in, 1, axis, mlx2sbu_V_last_V, pointer</column>
+<column name="mlx2sbu_TID">in, 3, axis, mlx2sbu_V_id_V, pointer</column>
+<column name="sbu2mlx_TDATA">out, 256, axis, sbu2mlx_V_data_V, pointer</column>
+<column name="sbu2mlx_TVALID">out, 1, axis, sbu2mlx_V_user_V, pointer</column>
+<column name="sbu2mlx_TREADY">in, 1, axis, sbu2mlx_V_user_V, pointer</column>
+<column name="sbu2mlx_TUSER">out, 12, axis, sbu2mlx_V_user_V, pointer</column>
+<column name="sbu2mlx_TKEEP">out, 32, axis, sbu2mlx_V_keep_V, pointer</column>
+<column name="sbu2mlx_TLAST">out, 1, axis, sbu2mlx_V_last_V, pointer</column>
+<column name="sbu2mlx_TID">out, 3, axis, sbu2mlx_V_id_V, pointer</column>
+<column name="sbu2prt_nw_TDATA">out, 256, axis, sbu2prt_nw_V_data_V, pointer</column>
+<column name="sbu2prt_nw_TVALID">out, 1, axis, sbu2prt_nw_V_user_V, pointer</column>
+<column name="sbu2prt_nw_TREADY">in, 1, axis, sbu2prt_nw_V_user_V, pointer</column>
+<column name="sbu2prt_nw_TUSER">out, 12, axis, sbu2prt_nw_V_user_V, pointer</column>
+<column name="sbu2prt_nw_TKEEP">out, 32, axis, sbu2prt_nw_V_keep_V, pointer</column>
+<column name="sbu2prt_nw_TLAST">out, 1, axis, sbu2prt_nw_V_last_V, pointer</column>
+<column name="sbu2prt_nw_TID">out, 3, axis, sbu2prt_nw_V_id_V, pointer</column>
+<column name="sbu2prt_cx_TDATA">out, 256, axis, sbu2prt_cx_V_data_V, pointer</column>
+<column name="sbu2prt_cx_TVALID">out, 1, axis, sbu2prt_cx_V_user_V, pointer</column>
+<column name="sbu2prt_cx_TREADY">in, 1, axis, sbu2prt_cx_V_user_V, pointer</column>
+<column name="sbu2prt_cx_TUSER">out, 12, axis, sbu2prt_cx_V_user_V, pointer</column>
+<column name="sbu2prt_cx_TKEEP">out, 32, axis, sbu2prt_cx_V_keep_V, pointer</column>
+<column name="sbu2prt_cx_TLAST">out, 1, axis, sbu2prt_cx_V_last_V, pointer</column>
+<column name="sbu2prt_cx_TID">out, 3, axis, sbu2prt_cx_V_id_V, pointer</column>
+</table>
+</item>
+</section>
+</profile>

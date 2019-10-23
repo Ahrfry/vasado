@@ -1,0 +1,1714 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Sep 05 20:45:00 2019
+# Process ID: 14200
+# Current directory: C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog
+# Command line: vivado.exe -notrace -mode batch -source run_vivado.tcl
+# Log file: C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/vivado.log
+# Journal file: C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog\vivado.jou
+#-----------------------------------------------------------
+source run_vivado.tcl -notrace
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog'
+[Thu Sep 05 20:45:07 2019] Launched synth_1...
+Run output will be captured here: C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/synth_1/runme.log
+[Thu Sep 05 20:45:07 2019] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log example.vds -m64 -mode batch -messageDb vivado.pb -notrace -source example.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source example.tcl -notrace
+Command: synth_design -top example -part xcku060-ffva1156-1L-i -no_iobuf -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku060'
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -217 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14404 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 310.691 ; gain = 103.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'example' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.v:12]
+	Parameter ap_const_lv256_lc_1 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter ap_const_lv32_0 bound to: 0 - type: integer 
+	Parameter ap_const_lv3_0 bound to: 3'b000 
+	Parameter ap_const_lv12_0 bound to: 12'b000000000000 
+INFO: [Synth 8-638] synthesizing module 'example_Block_codeRepl951_proc' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:10]
+	Parameter ap_ST_st1_fsm_0 bound to: 4'b0001 
+	Parameter ap_ST_st2_fsm_1 bound to: 4'b0010 
+	Parameter ap_ST_st3_fsm_2 bound to: 4'b0100 
+	Parameter ap_ST_st4_fsm_3 bound to: 4'b1000 
+	Parameter ap_const_lv32_0 bound to: 0 - type: integer 
+	Parameter ap_const_lv2_0 bound to: 2'b00 
+	Parameter ap_const_lv2_1 bound to: 2'b01 
+	Parameter ap_const_lv2_2 bound to: 2'b10 
+	Parameter ap_const_lv32_1 bound to: 1 - type: integer 
+	Parameter ap_const_lv2_3 bound to: 2'b11 
+	Parameter ap_const_lv32_3 bound to: 3 - type: integer 
+	Parameter ap_const_lv32_2 bound to: 2 - type: integer 
+	Parameter ap_const_lv16_0 bound to: 16'b0000000000000000 
+	Parameter ap_const_lv32_B0 bound to: 176 - type: integer 
+	Parameter ap_const_lv32_BF bound to: 191 - type: integer 
+	Parameter ap_const_lv16_103 bound to: 16'b0000000100000011 
+	Parameter ap_const_lv32_F0 bound to: 240 - type: integer 
+	Parameter ap_const_lv32_FF bound to: 255 - type: integer 
+	Parameter ap_const_lv32_D0 bound to: 208 - type: integer 
+	Parameter ap_const_lv32_DF bound to: 223 - type: integer 
+	Parameter ap_const_lv16_138A bound to: 16'b0001001110001010 
+	Parameter ap_const_lv32_90 bound to: 144 - type: integer 
+	Parameter ap_const_lv32_AF bound to: 175 - type: integer 
+	Parameter ap_const_lv32_9F bound to: 159 - type: integer 
+	Parameter ap_const_lv16_800 bound to: 16'b0000100000000000 
+	Parameter ap_const_lv32_40 bound to: 64 - type: integer 
+	Parameter ap_const_lv32_47 bound to: 71 - type: integer 
+	Parameter ap_const_lv8_11 bound to: 8'b00010001 
+	Parameter ap_const_lv32_C0A80102 bound to: -1062731518 - type: integer 
+	Parameter ap_const_lv32_10 bound to: 16 - type: integer 
+	Parameter ap_const_lv32_2F bound to: 47 - type: integer 
+	Parameter ap_const_lv96_248A07A8F9F6248A07A8F9F2 bound to: 96'b001001001000101000000111101010001111100111110110001001001000101000000111101010001111100111110010 
+	Parameter ap_const_lv32_A0 bound to: 160 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:165]
+INFO: [Synth 8-638] synthesizing module 'example_axi_stream_pass_alt' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_axi_stream_pass_alt.v:10]
+	Parameter ap_ST_st1_fsm_0 bound to: 1'b1 
+	Parameter ap_const_lv32_0 bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_axi_stream_pass_alt.v:69]
+INFO: [Synth 8-256] done synthesizing module 'example_axi_stream_pass_alt' (1#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_axi_stream_pass_alt.v:10]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:11]
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V_shiftReg' (2#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V' (3#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:11]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V_shiftReg' (4#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V' (5#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V_shiftReg' (6#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V' (7#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:11]
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V_shiftReg' (8#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V' (9#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:11]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V_shiftReg' (10#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V' (11#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:11]
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V_shiftReg' (12#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V' (13#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:11]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V_shiftReg' (14#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V' (15#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V_shiftReg' (16#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V' (17#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:11]
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V_shiftReg' (18#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V' (19#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:11]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V_shiftReg' (20#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V' (21#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:11]
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V_shiftReg' (22#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V' (23#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:11]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V_shiftReg' (24#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V' (25#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V_shiftReg' (26#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V' (27#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:11]
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V_shiftReg' (28#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V' (29#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:11]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V_shiftReg' (30#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V' (31#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:11]
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V_shiftReg' (32#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V' (33#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:11]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V_shiftReg' (34#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V' (35#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:11]
+	Parameter DATA_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V_shiftReg' (36#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V' (37#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:11]
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V_shiftReg' (38#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V' (39#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:45]
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:45]
+	Parameter MEM_STYLE bound to: shiftreg - type: string 
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V_shiftReg' [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:11]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter DEPTH bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V_shiftReg' (40#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:11]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V' (41#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:45]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:2029]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:2105]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:2121]
+INFO: [Synth 8-256] done synthesizing module 'example_Block_codeRepl951_proc' (42#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:10]
+INFO: [Synth 8-256] done synthesizing module 'example' (43#1) [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 372.410 ; gain = 165.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 372.410 ; gain = 165.625
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xcku060-ffva1156-1L-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc]
+Finished Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.453 . Memory (MB): peak = 947.113 ; gain = 6.855
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku060-ffva1156-1L-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:91]
+INFO: [Synth 8-5546] ROM "internal_empty_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "internal_full_n" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3936] Found unconnected internal register 'streamSource_V_1_reg' and it is trimmed from '2' to '1' bits. [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:927]
+WARNING: [Synth 8-3936] Found unconnected internal register 'streamSource_V_reg' and it is trimmed from '2' to '1' bits. [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example_Block_codeRepl951_proc.v:921]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "tmp_5_fu_1216_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_s_fu_1232_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_8_fu_1166_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_7_fu_1358_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_9_fu_1374_p2" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 20    
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	              256 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                6 Bit    Registers := 20    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 61    
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 15    
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     12 Bit        Muxes := 8     
+	   2 Input      5 Bit        Muxes := 20    
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 9     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 133   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module example_axi_stream_pass_alt 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module example_Block_codeRepl951_proc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	              256 Bit    Registers := 2     
+	               32 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 15    
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     12 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 9     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 29    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2760 (col length:120)
+BRAMs: 2160 (col length: RAMB18 120 RAMB36 60)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "tmp_5_fu_1216_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_s_fu_1232_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_8_fu_1166_p2" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 947.113 ; gain = 740.328
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:33 . Memory (MB): peak = 947.113 ; gain = 740.328
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[176]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[177]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[177]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[178]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[178]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[179]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[179]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[180]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[180]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[181]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[181]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[182]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[182]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[183]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[183]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[184]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[184]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[185]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[185]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[186]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[186]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[187]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[187]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[188]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[188]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[189]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[189]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[190]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[190]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[191]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[191]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[242]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[240]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[241]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[241]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[248]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[242]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[243]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[243]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[244]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[244]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[245]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[245]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[246]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[246]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[247]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[247]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[249]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (example_Block_codeRepl951_proc_U0/\buff_data_V_reg_1677_reg[248] )
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[249]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[250]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[250]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[251]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[251]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[252]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[252]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[253]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[253]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[254]'
+INFO: [Synth 8-3886] merging instance 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[254]' (FDE) to 'example_Block_codeRepl951_proc_U0/buff_data_V_reg_1677_reg[255]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (example_Block_codeRepl951_proc_U0/\buff_data_V_reg_1677_reg[255] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (example_Block_codeRepl951_proc_U0/\stg_378_example_axi_stream_pass_alt_fu_867/ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (example_Block_codeRepl951_proc_U0/ap_done_reg_reg)
+WARNING: [Synth 8-3332] Sequential element (stg_378_example_axi_stream_pass_alt_fu_867/ap_CS_fsm_reg[0]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (ap_done_reg_reg) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[255]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[254]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[253]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[252]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[251]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[250]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[249]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[248]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[247]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[246]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[245]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[244]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[243]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[242]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[241]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[240]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[191]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[190]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[189]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[188]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[187]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[186]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[185]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[184]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[183]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[182]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[181]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[180]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[179]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[178]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[177]) is unused and will be removed from module example_Block_codeRepl951_proc.
+WARNING: [Synth 8-3332] Sequential element (buff_data_V_reg_1677_reg[176]) is unused and will be removed from module example_Block_codeRepl951_proc.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 964.520 ; gain = 757.734
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 964.520 ; gain = 757.734
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:01:03 . Memory (MB): peak = 1237.938 ; gain = 1031.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:12 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:05 ; elapsed = 00:01:14 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:05 ; elapsed = 00:01:14 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:05 ; elapsed = 00:01:14 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:06 ; elapsed = 00:01:15 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:07 ; elapsed = 00:01:16 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:07 ; elapsed = 00:01:16 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-----------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name        | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-----------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | SRL_SIG_reg[16] | 32     | 256        | 0      | 256     | 0      | 0      | 0      | 
+|dsrl__1     | SRL_SIG_reg[16] | 32     | 32         | 0      | 32      | 0      | 0      | 0      | 
+|dsrl__2     | SRL_SIG_reg[16] | 32     | 1          | 0      | 1       | 0      | 0      | 0      | 
+|dsrl__3     | SRL_SIG_reg[16] | 32     | 3          | 0      | 3       | 0      | 0      | 0      | 
+|dsrl__4     | SRL_SIG_reg[16] | 32     | 12         | 0      | 12      | 0      | 0      | 0      | 
+|dsrl__5     | SRL_SIG_reg[16] | 32     | 256        | 0      | 256     | 0      | 0      | 0      | 
+|dsrl__6     | SRL_SIG_reg[16] | 32     | 32         | 0      | 32      | 0      | 0      | 0      | 
+|dsrl__7     | SRL_SIG_reg[16] | 32     | 1          | 0      | 1       | 0      | 0      | 0      | 
+|dsrl__8     | SRL_SIG_reg[16] | 32     | 3          | 0      | 3       | 0      | 0      | 0      | 
+|dsrl__9     | SRL_SIG_reg[16] | 32     | 12         | 0      | 12      | 0      | 0      | 0      | 
+|dsrl__10    | SRL_SIG_reg[16] | 32     | 256        | 0      | 256     | 0      | 0      | 0      | 
+|dsrl__11    | SRL_SIG_reg[16] | 32     | 32         | 0      | 32      | 0      | 0      | 0      | 
+|dsrl__12    | SRL_SIG_reg[16] | 32     | 1          | 0      | 1       | 0      | 0      | 0      | 
+|dsrl__13    | SRL_SIG_reg[16] | 32     | 3          | 0      | 3       | 0      | 0      | 0      | 
+|dsrl__14    | SRL_SIG_reg[16] | 32     | 12         | 0      | 12      | 0      | 0      | 0      | 
+|dsrl__15    | SRL_SIG_reg[16] | 32     | 256        | 0      | 256     | 0      | 0      | 0      | 
+|dsrl__16    | SRL_SIG_reg[16] | 32     | 32         | 0      | 32      | 0      | 0      | 0      | 
+|dsrl__17    | SRL_SIG_reg[16] | 32     | 1          | 0      | 1       | 0      | 0      | 0      | 
+|dsrl__18    | SRL_SIG_reg[16] | 32     | 3          | 0      | 3       | 0      | 0      | 0      | 
+|dsrl__19    | SRL_SIG_reg[16] | 32     | 12         | 0      | 12      | 0      | 0      | 0      | 
++------------+-----------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY8  |     8|
+|2     |LUT1    |    88|
+|3     |LUT2    |   216|
+|4     |LUT3    |   427|
+|5     |LUT4    |   128|
+|6     |LUT5    |   724|
+|7     |LUT6    |   385|
+|8     |SRLC32E |  1216|
+|9     |FDRE    |   583|
+|10    |FDSE    |   176|
++------+--------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+------+
+|      |Instance                                                                  |Module                                                                 |Cells |
++------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+------+
+|1     |top                                                                       |                                                                       |  3951|
+|2     |  example_Block_codeRepl951_proc_U0                                       |example_Block_codeRepl951_proc                                         |  3951|
+|3     |    merger_host_0_V_data_V_merger_host_0_V_data_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V             |   299|
+|4     |      U_FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V_shiftReg    |   262|
+|5     |    merger_host_0_V_id_V_merger_host_0_V_id_V_fifo_U                      |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V               |    31|
+|6     |      U_FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V_ram      |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V_shiftReg      |     9|
+|7     |    merger_host_0_V_keep_V_merger_host_0_V_keep_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V             |    72|
+|8     |      U_FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V_shiftReg    |    51|
+|9     |    merger_host_0_V_last_V_merger_host_0_V_last_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V             |    28|
+|10    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V_shiftReg    |     7|
+|11    |    merger_host_0_V_user_V_merger_host_0_V_user_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V             |    40|
+|12    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V_shiftReg    |    18|
+|13    |    merger_host_1_V_data_V_merger_host_1_V_data_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V             |   671|
+|14    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V_shiftReg    |   647|
+|15    |    merger_host_1_V_id_V_merger_host_1_V_id_V_fifo_U                      |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V               |    33|
+|16    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V_ram      |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V_shiftReg      |    12|
+|17    |    merger_host_1_V_keep_V_merger_host_1_V_keep_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V             |    91|
+|18    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V_shiftReg    |    70|
+|19    |    merger_host_1_V_last_V_merger_host_1_V_last_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V             |    31|
+|20    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V_shiftReg    |    10|
+|21    |    merger_host_1_V_user_V_merger_host_1_V_user_V_fifo_U                  |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V             |    61|
+|22    |      U_FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V_ram    |FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V_shiftReg    |    30|
+|23    |    merger_network_0_V_data_V_merger_network_0_V_data_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V          |   285|
+|24    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V_shiftReg |   263|
+|25    |    merger_network_0_V_id_V_merger_network_0_V_id_V_fifo_U                |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V            |    29|
+|26    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V_ram   |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V_shiftReg   |     8|
+|27    |    merger_network_0_V_keep_V_merger_network_0_V_keep_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V          |   385|
+|28    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V_shiftReg |    69|
+|29    |    merger_network_0_V_last_V_merger_network_0_V_last_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V          |    27|
+|30    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V_shiftReg |     6|
+|31    |    merger_network_0_V_user_V_merger_network_0_V_user_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V          |    64|
+|32    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V_shiftReg |    21|
+|33    |    merger_network_1_V_data_V_merger_network_1_V_data_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V          |   284|
+|34    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V_shiftReg |   262|
+|35    |    merger_network_1_V_id_V_merger_network_1_V_id_V_fifo_U                |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V            |   665|
+|36    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V_ram   |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V_shiftReg   |     9|
+|37    |    merger_network_1_V_keep_V_merger_network_1_V_keep_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V          |    59|
+|38    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V_shiftReg |    38|
+|39    |    merger_network_1_V_last_V_merger_network_1_V_last_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V          |    30|
+|40    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V_shiftReg |     8|
+|41    |    merger_network_1_V_user_V_merger_network_1_V_user_V_fifo_U            |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V          |    39|
+|42    |      U_FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V_ram |FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V_shiftReg |    17|
+|43    |    stg_378_example_axi_stream_pass_alt_fu_867                            |example_axi_stream_pass_alt                                            |     1|
++------+--------------------------------------------------------------------------+-----------------------------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:07 ; elapsed = 00:01:16 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 36 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:56 . Memory (MB): peak = 1443.305 ; gain = 629.223
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:16 . Memory (MB): peak = 1443.305 ; gain = 1236.520
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+201 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 1443.305 ; gain = 1218.117
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1443.305 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 05 20:47:09 2019...
+[Thu Sep 05 20:47:11 2019] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:04 . Memory (MB): peak = 249.852 ; gain = 5.602
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku060-ffva1156-1L-i
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xcku060-ffva1156-1L-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc:2]
+Finished Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 763.750 ; gain = 513.898
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 763.750 ; gain = 0.000
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Temperature grade: I, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+report_timing: Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1673.867 ; gain = 910.117
+[Thu Sep 05 20:47:47 2019] Launched impl_1...
+Run output will be captured here: C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/runme.log
+[Thu Sep 05 20:47:47 2019] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log example.vdi -applog -m64 -messageDb vivado.pb -mode batch -source example.tcl -notrace
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source example.tcl -notrace
+Command: open_checkpoint C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/example.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 207.410 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xcku060-ffva1156-1L-i
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/.Xil/Vivado-5224-Ahrfry/dcp/example.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc:2]
+Finished Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/.Xil/Vivado-5224-Ahrfry/dcp/example.xdc]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.2 (64-bit) build 1577090
+open_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 753.133 ; gain = 545.723
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -217 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 758.922 ; gain = 2.773
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+INFO: [Mig 66-107] No memory instances. Ignoring
+Implement Debug Cores | Checksum: 146bc1188
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 124 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 122569930
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.333 . Memory (MB): peak = 1100.125 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 122569930
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.453 . Memory (MB): peak = 1100.125 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 47 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: e69c8ec8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.593 . Memory (MB): peak = 1100.125 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1100.125 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: e69c8ec8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.640 . Memory (MB): peak = 1100.125 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: e69c8ec8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1100.125 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1100.125 ; gain = 346.992
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/example_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -217 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1123.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1123.797 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop
+
+Phase 1.1.1.1 Pre-Place Cells
+Phase 1.1.1.1 Pre-Place Cells | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 1123.797 ; gain = 0.000
+
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1123.797 ; gain = 0.000
+
+Phase 1.1.1.3 IO and Clk Clean Up
+
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: 00000000
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1.1.1.3 IO and Clk Clean Up | Checksum: 00000000
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 1.1.1.4 Implementation Feasibility check On IDelay
+Phase 1.1.1.4 Implementation Feasibility check On IDelay | Checksum: 00000000
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 1.1.1.5 Commit IO Placement
+Phase 1.1.1.5 Commit IO Placement | Checksum: 00000000
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: 00000000
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 5f1edbdd
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Make Others
+Phase 1.2.1.1 Make Others | Checksum: 14ac3a3b8
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 1.2.1.2 Init Lut Pin Assignment
+Phase 1.2.1.2 Init Lut Pin Assignment | Checksum: 14ac3a3b8
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1.2.1 Place Init Design | Checksum: 1b5bd3ad2
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1.2 Build Placer Netlist Model | Checksum: 1b5bd3ad2
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1b5bd3ad2
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 1 Placer Initialization | Checksum: 1b5bd3ad2
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1588d7b40
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1588d7b40
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1267fda61
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1186a365a
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 1186a365a
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 12ac94213
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 12ac94213
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: 1638890cf
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.8 Small Shape Detail Placement
+Phase 3.8 Small Shape Detail Placement | Checksum: 20c4c07be
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.9 Re-assign LUT pins
+Phase 3.9 Re-assign LUT pins | Checksum: 19a2947be
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.10 Pipeline Register Optimization
+Phase 3.10 Pipeline Register Optimization | Checksum: 19a2947be
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 3.11 Fast Optimization
+Phase 3.11 Fast Optimization | Checksum: 19a2947be
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.613 ; gain = 547.816
+Phase 3 Detail Placement | Checksum: 19a2947be
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 1671.613 ; gain = 547.816
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 updateClock Trees: PCOPT
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 22277b4fa
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:30 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.1.2 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.570. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: 1bab0233e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1696.000 ; gain = 572.203
+Phase 4.1 Post Commit Optimization | Checksum: 1bab0233e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 1bab0233e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.3 Uram Pipeline Register Optimization
+Phase 4.3 Uram Pipeline Register Optimization | Checksum: 1bab0233e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.4 Post Placement Cleanup
+Phase 4.4 Post Placement Cleanup | Checksum: 1bab0233e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:31 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.5 Placer Reporting
+Phase 4.5 Placer Reporting | Checksum: 21a4ff81e
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:32 . Memory (MB): peak = 1696.000 ; gain = 572.203
+
+Phase 4.6 Final Placement Cleanup
+Phase 4.6 Final Placement Cleanup | Checksum: 1f1d678b0
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 1696.000 ; gain = 572.203
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1f1d678b0
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 1696.000 ; gain = 572.203
+Ending Placer Task | Checksum: 1a2610fac
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:32 . Memory (MB): peak = 1696.000 ; gain = 572.203
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:33 . Memory (MB): peak = 1696.000 ; gain = 574.680
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.507 . Memory (MB): peak = 1696.000 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.157 . Memory (MB): peak = 1696.000 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.409 . Memory (MB): peak = 1696.000 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1696.000 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -217 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1696.000 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+Phase 1 Physical Synthesis Initialization | Checksum: 9c0bbf1e
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1696.000 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.500 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+Ending Physical Synthesis Task | Checksum: 1fb7a579d
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1696.000 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.499 . Memory (MB): peak = 1696.000 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku060'
+INFO: [Common 17-1223] The version limit for your license is '2019.01' and will expire in -217 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 78c2751b ConstDB: 0 ShapeSum: b1fc3593 RouteDB: 5f9fd4e0
+
+Phase 1 Build RT Design
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[197]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[197]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[221]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[221]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[43]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[43]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[19]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[19]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[28]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[28]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[25]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[25]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[51]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[51]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[53]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[53]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[5]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[5]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "ap_rst_n" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "ap_rst_n". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[103]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[103]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[232]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[232]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[233]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[233]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[196]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[196]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[197]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[197]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[220]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[220]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[2]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[2]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[30]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[30]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[5]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[5]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[25]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[25]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[27]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[27]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[53]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[53]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "mlx2sbu_TVALID" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "mlx2sbu_TVALID". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "sbu2mlx_TREADY" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "sbu2mlx_TREADY". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "sbu2prt_cx_TREADY" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "sbu2prt_cx_TREADY". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[102]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[102]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[102]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[102]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[112]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[112]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[78]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[78]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[79]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[79]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[57]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[57]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[77]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[77]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[113]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[113]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[233]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[233]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[56]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[56]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[58]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[58]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[76]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[76]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[90]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[90]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[91]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[91]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[56]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[56]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[57]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[57]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[202]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[202]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[203]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[203]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[204]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[204]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[205]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[205]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[209]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[209]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[220]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[220]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[230]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[230]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[231]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[231]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[203]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[203]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[205]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[205]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[204]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[204]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[196]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[196]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[221]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[221]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[43]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[43]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[15]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[15]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[17]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[17]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[45]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[45]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[19]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[19]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[47]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[47]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[164]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[164]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[165]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[165]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[167]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[167]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[26]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[26]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[27]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[27]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[29]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[29]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[2]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[2]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[6]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[6]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[6]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[6]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[26]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[26]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "ap_start" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "ap_start". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[1]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[1]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[29]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[29]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TID[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TID[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TID[1]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TID[1]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TID[2]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TID[2]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TLAST[0]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TLAST[0]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[114]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[114]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[115]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[115]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[81]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[81]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[103]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[103]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[105]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[105]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[92]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[92]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[93]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[93]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[92]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[92]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[93]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[93]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[112]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[112]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[78]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[78]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[79]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[79]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[90]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[90]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[91]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[91]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[224]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[224]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[225]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[225]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[224]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[224]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[225]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[225]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_cx2sbu_TDATA[232]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_cx2sbu_TDATA[232]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[202]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[202]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+WARNING: [Route 35-198] Port "prt_nw2sbu_TDATA[230]" does not have an associated HD.PARTPIN_LOCS, which will prevent the partial routing of the signal "prt_nw2sbu_TDATA[230]". Without this partial route, timing analysis to/from this port will not be accurate, and no routing information for this port can be exported.
+INFO: [Common 17-14] Message 'Route 35-198' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1 Build RT Design | Checksum: 87d6ddec
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:39 . Memory (MB): peak = 2044.785 ; gain = 348.785
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 87d6ddec
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:39 . Memory (MB): peak = 2044.785 ; gain = 348.785
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 87d6ddec
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:39 . Memory (MB): peak = 2044.785 ; gain = 348.785
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 87d6ddec
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:39 . Memory (MB): peak = 2044.785 ; gain = 348.785
+
+Phase 2.4 Global Clock Net Routing
+Phase 2.4 Global Clock Net Routing | Checksum: 87d6ddec
+
+Time (s): cpu = 00:01:06 ; elapsed = 00:00:44 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 151f6bcde
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:47 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.812  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+Phase 2 Router Initialization | Checksum: e4d99b0c
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:48 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 19d868c54
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:50 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 468
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 213495b0d
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.575  | TNS=0.000  | WHS=-0.061 | THS=-0.064 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1cacf1dee
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: b3fac0fb
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.575  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+
+Phase 4.2.2 GlobIterForTiming
+
+Phase 4.2.2.1 Update Timing
+Phase 4.2.2.1 Update Timing | Checksum: 6b37ee3a
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 4.2.2.2 Fast Budgeting
+Phase 4.2.2.2 Fast Budgeting | Checksum: 5457826f
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Phase 4.2.2 GlobIterForTiming | Checksum: 130f8167c
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Phase 4.2 Global Iteration 1 | Checksum: 130f8167c
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Phase 4 Rip-up And Reroute | Checksum: 130f8167c
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:53 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: f171588b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.575  | TNS=0.000  | WHS=0.034  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: f171588b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: f171588b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Phase 5 Delay and Skew Optimization | Checksum: f171588b
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 57bffc4a
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.575  | TNS=0.000  | WHS=0.034  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 57bffc4a
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Phase 6 Post Hold Fix | Checksum: 57bffc4a
+
+Time (s): cpu = 00:01:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.10687 %
+  Global Horizontal Routing Utilization  = 0.105048 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 109789ccd
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:55 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 109789ccd
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:55 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 109789ccd
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:56 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.575  | TNS=0.000  | WHS=0.034  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 109789ccd
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:56 . Memory (MB): peak = 2081.590 ; gain = 385.590
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:00:56 . Memory (MB): peak = 2081.590 ; gain = 385.590
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+60 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:28 ; elapsed = 00:00:57 . Memory (MB): peak = 2081.590 ; gain = 385.590
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.645 . Memory (MB): peak = 2081.590 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/project.runs/impl_1/example_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2081.590 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 05 20:50:53 2019...
+[Thu Sep 05 20:50:54 2019] impl_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:03:07 . Memory (MB): peak = 1673.867 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/.Xil/Vivado-14200-Ahrfry/dcp/example.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/example.xdc:2]
+Finished Parsing XDC File [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/impl/verilog/.Xil/Vivado-14200-Ahrfry/dcp/example.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.406 . Memory (MB): peak = 1725.234 ; gain = 1.289
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.437 . Memory (MB): peak = 1725.234 ; gain = 1.289
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Temperature grade: I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.485 . Memory (MB): peak = 1864.645 ; gain = 0.078
+
+
+Implementation tool: Xilinx Vivado v.2016.2
+Project:             example_hls
+Solution:            solution1
+Device target:       xcku060-ffva1156-1l-i
+Report date:         Thu Sep 05 20:51:01 -0400 2019
+
+#=== Resource usage ===
+CLB:            551
+LUT:           2795
+FF:             759
+DSP:              0
+BRAM:             0
+SRL:           1216
+#=== Final timing ===
+CP required:    4.600
+CP achieved:    4.019
+Timing met
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 05 20:51:01 2019...

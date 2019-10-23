@@ -1,0 +1,410 @@
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 138
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 138
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+Wrote to In[0] at IDLE Protocol 17
+source 0 at merge IDLE
+protocol 17
+Wrote to In[0] at checksum
+count 11
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 1
+source 0 at merge STREAM
+source 0 at merge STREAM
+source 0 at merge IDLE
+protocol 0
+source 0 at merge STREAM
+capture finished
+Success: HW and SW results match
+
+C:\Users\chris\Downloads\user\tb\exp_hls\example\example_hls\solution1\sim\verilog>call xelab xil_defaultlib.apatb_example_top -prj example.prj --initfile "C:/Xilinx/Vivado/2016.2/bin/../data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s example  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2016.2/bin/../data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_example_top -prj example.prj --initfile C:/Xilinx/Vivado/2016.2/bin/../data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s example 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_mlx2sbu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_mlx2sbu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_prt_cx2sbu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_prt_cx2sbu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_prt_nw2sbu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_prt_nw2sbu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_sbu2mlx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_sbu2mlx
+INFO: [VRFC 10-2458] undeclared symbol TRAN_sbu2mlx_TREADY_temp, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_sbu2mlx.v:157]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_sbu2prt_cx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_sbu2prt_cx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_axi_s_sbu2prt_nw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_sbu2prt_nw
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_example_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.autotb.v:291]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.autotb.v:292]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n_n, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.autotb.v:313]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example_axi_stream_pass_alt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_axi_stream_pass_alt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example_Block_codeRepl951_proc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module example_Block_codeRepl951_proc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_data_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_id_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_keep_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_last_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_0_V_user_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_data_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_id_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_keep_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_last_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_host_1_V_user_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_data_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_id_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_keep_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_last_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_0_V_user_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_data_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_id_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_keep_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_last_V.v:111]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V_shiftReg
+INFO: [VRFC 10-311] analyzing module FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V
+INFO: [VRFC 10-2458] undeclared symbol shiftReg_ce, assumed default net type wire [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/FIFO_example_Block_codeRepl951_proc_merger_network_1_V_user_V.v:111]
+Starting static elaboration
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:39]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:40]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:66]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:82]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:83]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:84]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:100]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:101]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:102]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:110]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:112]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:114]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:123]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:124]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:134]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:135]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:144]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:145]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:146]
+WARNING: [VRFC 10-597] element index -1 into write_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:189]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:190]
+WARNING: [VRFC 10-597] element index -1 into read_address is out of bounds [C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/AESL_fifo.v:191]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.example_axi_stream_pass_alt
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.FIFO_example_Block_codeRepl951_p...
+Compiling module xil_defaultlib.example_Block_codeRepl951_proc
+Compiling module xil_defaultlib.example
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=256)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=32)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=1)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=3)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=12)
+Compiling module xil_defaultlib.AESL_axi_s_prt_nw2sbu
+Compiling module xil_defaultlib.fifo(DEPTH=0,WIDTH=256)
+Compiling module xil_defaultlib.fifo(DEPTH=0,WIDTH=32)
+Compiling module xil_defaultlib.fifo(DEPTH=0,WIDTH=1)
+Compiling module xil_defaultlib.fifo(DEPTH=0,WIDTH=3)
+Compiling module xil_defaultlib.fifo(DEPTH=0,WIDTH=12)
+Compiling module xil_defaultlib.AESL_axi_s_prt_cx2sbu
+Compiling module xil_defaultlib.AESL_axi_s_mlx2sbu
+Compiling module xil_defaultlib.AESL_axi_s_sbu2prt_cx
+Compiling module xil_defaultlib.AESL_axi_s_sbu2prt_nw
+Compiling module xil_defaultlib.AESL_axi_s_sbu2mlx
+Compiling module xil_defaultlib.apatb_example_top
+Built simulation snapshot example
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/xsim.dir/example/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 49.605 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Thu Sep 05 20:41:59 2019...
+
+****** xsim v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/example/xsim_script.tcl
+# xsim {example} -autoloadwcfg -tclbatch {example.tcl}
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source example.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 103 [0.00%] @ "113000"
+// RTL Simulation : 103 / 103 [0.00%] @ "3130000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 3148700 ps : File "C:/Users/chris/Downloads/user/tb/exp_hls/example/example_hls/solution1/sim/verilog/example.autotb.v" Line 640
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Sep 05 20:42:47 2019...
+capture finished
+Success: HW and SW results match

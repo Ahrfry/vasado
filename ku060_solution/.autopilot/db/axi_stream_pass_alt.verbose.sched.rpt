@@ -1,0 +1,152 @@
+
+
+================================================================
+== Vivado HLS Report for 'axi_stream_pass_alt'
+================================================================
+* Date:           Tue Oct 15 01:33:01 2019
+
+* Version:        2016.4 (Build 1756540 on Mon Jan 23 19:31:01 MST 2017)
+* Project:        example
+* Solution:       ku060_solution
+* Product family: kintexu
+* Target device:  xcku060-ffva1156-1l-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   4.60|      0.00|        0.00|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    1|    1|    1|    1|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 2
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+* FSM state operations: 
+
+ <State 1>: 0.00ns
+ST_1: StgValue_3 (11)  [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecInterface(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_1: StgValue_4 (12)  [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecInterface(i256* %Out_V_data_V, i32* %Out_V_keep_V, i1* %Out_V_last_V, i3* %Out_V_id_V, i12* %Out_V_user_V, [5 x i8]* @p_str18, i32 1, i32 1, [5 x i8]* @p_str19, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2, [1 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str2, [1 x i8]* @p_str2) nounwind
+
+ST_1: tmp (13)  [1/1] 0.00ns  loc: example/example.cpp:37
+:2  %tmp = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V, i32 1)
+
+ST_1: StgValue_6 (14)  [1/1] 0.00ns  loc: example/example.cpp:37
+:3  br i1 %tmp, label %1, label %._crit_edge
+
+ST_1: empty (16)  [1/1] 0.00ns  loc: example/example.cpp:39
+:0  %empty = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %In_V_data_V, i32* %In_V_keep_V, i1* %In_V_last_V, i3* %In_V_id_V, i12* %In_V_user_V)
+
+ST_1: tmp_data_V (17)  [1/1] 0.00ns  loc: example/example.cpp:39
+:1  %tmp_data_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 0
+
+ST_1: tmp_keep_V (18)  [1/1] 0.00ns  loc: example/example.cpp:39
+:2  %tmp_keep_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 1
+
+ST_1: tmp_last_V (19)  [1/1] 0.00ns  loc: example/example.cpp:39
+:3  %tmp_last_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 2
+
+ST_1: tmp_id_V (20)  [1/1] 0.00ns  loc: example/example.cpp:39
+:4  %tmp_id_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 3
+
+ST_1: tmp_user_V (21)  [1/1] 0.00ns  loc: example/example.cpp:39
+:5  %tmp_user_V = extractvalue { i256, i32, i1, i3, i12 } %empty, 4
+
+ST_1: StgValue_13 (22)  [2/2] 0.00ns  loc: example/example.cpp:40
+:6  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %Out_V_data_V, i32* %Out_V_keep_V, i1* %Out_V_last_V, i3* %Out_V_id_V, i12* %Out_V_user_V, i256 %tmp_data_V, i32 %tmp_keep_V, i1 %tmp_last_V, i3 %tmp_id_V, i12 %tmp_user_V)
+
+
+ <State 2>: 0.00ns
+ST_2: StgValue_14 (22)  [1/2] 0.00ns  loc: example/example.cpp:40
+:6  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %Out_V_data_V, i32* %Out_V_keep_V, i1* %Out_V_last_V, i3* %Out_V_id_V, i12* %Out_V_user_V, i256 %tmp_data_V, i32 %tmp_keep_V, i1 %tmp_last_V, i3 %tmp_id_V, i12 %tmp_user_V)
+
+ST_2: StgValue_15 (23)  [1/1] 0.00ns  loc: example/example.cpp:41
+:7  br label %._crit_edge
+
+ST_2: StgValue_16 (25)  [1/1] 0.00ns  loc: example/example.cpp:42
+._crit_edge:0  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 4.6ns, clock uncertainty: 0ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

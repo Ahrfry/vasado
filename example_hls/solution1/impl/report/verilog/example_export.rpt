@@ -1,0 +1,19 @@
+
+
+Implementation tool: Xilinx Vivado v.2016.2
+Project:             example_hls
+Solution:            solution1
+Device target:       xcku060-ffva1156-1l-i
+Report date:         Thu Sep 05 20:51:01 -0400 2019
+
+#=== Resource usage ===
+CLB:            551
+LUT:           2795
+FF:             759
+DSP:              0
+BRAM:             0
+SRL:           1216
+#=== Final timing ===
+CP required:    4.600
+CP achieved:    4.019
+Timing met

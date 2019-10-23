@@ -1,0 +1,1257 @@
+
+
+================================================================
+== Vivado HLS Report for 'example_Block_codeRepl951_proc'
+================================================================
+* Date:           Thu Sep 05 20:34:07 2019
+
+* Version:        2016.2 (Build 1577090 on Thu Jun 02 16:59:10 MDT 2016)
+* Project:        example_hls
+* Solution:       solution1
+* Product family: kintexu
+* Target device:  xcku060-ffva1156-1l-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   4.60|      3.10|        0.57|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    3|    7|    3|    7|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  |  Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count | Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+        |- Loop 1  |    1|    2|         1|          -|          -| 1 ~ 2 |    no    |
+        |- Loop 2  |    1|    2|         1|          -|          -| 1 ~ 2 |    no    |
+        +----------+-----+-----+----------+-----------+-----------+-------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 4
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (DetectState_load == 0 & DetectState_1_load == 0) | (DetectState_load == 0 & DetectState_1_load == 1) | (DetectState_load == 1 & DetectState_1_load == 0) | (DetectState_load == 0 & DetectState_1_load == 2) | (DetectState_load == 1 & DetectState_1_load == 1) | (DetectState_load == 2 & DetectState_1_load == 0) | (DetectState_load == 0 & DetectState_1_load == 3) | (DetectState_load == 1 & DetectState_1_load == 2) | (DetectState_load == 2 & DetectState_1_load == 1) | (DetectState_load == 3 & DetectState_1_load == 0) | (!mergeState_load) | (DetectState_load == 1 & DetectState_1_load == 3) | (DetectState_load == 2 & DetectState_1_load == 2) | (DetectState_load == 3 & DetectState_1_load == 1) | (DetectState_load == 2 & DetectState_1_load == 3) | (DetectState_load == 3 & DetectState_1_load == 2) | (DetectState_load == 3 & DetectState_1_load == 3)
+3 --> 
+	3  / (!mergeState_load & !tmp_18 & !tmp_17)
+	4  / (mergeState_load) | (tmp_18) | (tmp_17)
+4 --> 
+	4  / (!mergeState_1_load & !tmp_27 & !tmp_24)
+* FSM state operations: 
+
+ <State 1>: 2.54ns
+ST_1: stg_5 [1/1] 0.00ns
+newFuncRoot:0  call void (...)* @_ssdm_op_SpecInterface(i12* %mlx2sbu_V_user_V, i3* %mlx2sbu_V_id_V, i1* %mlx2sbu_V_last_V, i32* %mlx2sbu_V_keep_V, i256* %mlx2sbu_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: stg_6 [1/1] 0.00ns
+newFuncRoot:1  call void (...)* @_ssdm_op_SpecInterface(i12* %sbu2mlx_V_user_V, i3* %sbu2mlx_V_id_V, i1* %sbu2mlx_V_last_V, i32* %sbu2mlx_V_keep_V, i256* %sbu2mlx_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: stg_7 [1/1] 0.00ns
+newFuncRoot:2  call void (...)* @_ssdm_op_SpecInterface(i12* %sbu2prt_cx_V_user_V, i3* %sbu2prt_cx_V_id_V, i1* %sbu2prt_cx_V_last_V, i32* %sbu2prt_cx_V_keep_V, i256* %sbu2prt_cx_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: stg_8 [1/1] 0.00ns
+newFuncRoot:3  call void (...)* @_ssdm_op_SpecInterface(i12* %sbu2prt_nw_V_user_V, i3* %sbu2prt_nw_V_id_V, i1* %sbu2prt_nw_V_last_V, i32* %sbu2prt_nw_V_keep_V, i256* %sbu2prt_nw_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: stg_9 [1/1] 0.00ns
+newFuncRoot:4  call void (...)* @_ssdm_op_SpecInterface(i12* %prt_cx2sbu_V_user_V, i3* %prt_cx2sbu_V_id_V, i1* %prt_cx2sbu_V_last_V, i32* %prt_cx2sbu_V_keep_V, i256* %prt_cx2sbu_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: stg_10 [1/1] 0.00ns
+newFuncRoot:5  call void (...)* @_ssdm_op_SpecInterface(i12* %prt_nw2sbu_V_user_V, i3* %prt_nw2sbu_V_id_V, i1* %prt_nw2sbu_V_last_V, i32* %prt_nw2sbu_V_keep_V, i256* %prt_nw2sbu_V_data_V, [5 x i8]* @p_str11, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str)
+
+ST_1: merger_host_1_V_data_V [1/1] 0.00ns
+newFuncRoot:6  %merger_host_1_V_data_V = alloca i256, align 8
+
+ST_1: empty [1/1] 0.00ns
+newFuncRoot:7  %empty = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_1_NF_OC_V_OC_d, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i256* %merger_host_1_V_data_V, i256* %merger_host_1_V_data_V)
+
+ST_1: stg_13 [1/1] 0.00ns
+newFuncRoot:8  call void (...)* @_ssdm_op_SpecInterface(i256* %merger_host_1_V_data_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_1_V_keep_V [1/1] 0.00ns
+newFuncRoot:9  %merger_host_1_V_keep_V = alloca i32, align 4
+
+ST_1: empty_36 [1/1] 0.00ns
+newFuncRoot:10  %empty_36 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_1_NF_OC_V_OC_k, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i32* %merger_host_1_V_keep_V, i32* %merger_host_1_V_keep_V)
+
+ST_1: stg_16 [1/1] 0.00ns
+newFuncRoot:11  call void (...)* @_ssdm_op_SpecInterface(i32* %merger_host_1_V_keep_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_1_V_last_V [1/1] 0.00ns
+newFuncRoot:12  %merger_host_1_V_last_V = alloca i1, align 1
+
+ST_1: empty_37 [1/1] 0.00ns
+newFuncRoot:13  %empty_37 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_1_NF_OC_V_OC_l, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i1* %merger_host_1_V_last_V, i1* %merger_host_1_V_last_V)
+
+ST_1: stg_19 [1/1] 0.00ns
+newFuncRoot:14  call void (...)* @_ssdm_op_SpecInterface(i1* %merger_host_1_V_last_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_1_V_id_V [1/1] 0.00ns
+newFuncRoot:15  %merger_host_1_V_id_V = alloca i3, align 1
+
+ST_1: empty_38 [1/1] 0.00ns
+newFuncRoot:16  %empty_38 = call i32 (...)* @_ssdm_op_SpecChannel([24 x i8]* @merger_host_LF_1_NF_OC_V_OC_i, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i3* %merger_host_1_V_id_V, i3* %merger_host_1_V_id_V)
+
+ST_1: stg_22 [1/1] 0.00ns
+newFuncRoot:17  call void (...)* @_ssdm_op_SpecInterface(i3* %merger_host_1_V_id_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_1_V_user_V [1/1] 0.00ns
+newFuncRoot:18  %merger_host_1_V_user_V = alloca i12, align 2
+
+ST_1: empty_39 [1/1] 0.00ns
+newFuncRoot:19  %empty_39 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_1_NF_OC_V_OC_u, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i12* %merger_host_1_V_user_V, i12* %merger_host_1_V_user_V)
+
+ST_1: stg_25 [1/1] 0.00ns
+newFuncRoot:20  call void (...)* @_ssdm_op_SpecInterface(i12* %merger_host_1_V_user_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_0_V_data_V [1/1] 0.00ns
+newFuncRoot:21  %merger_network_0_V_data_V = alloca i256, align 8
+
+ST_1: empty_40 [1/1] 0.00ns
+newFuncRoot:22  %empty_40 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_0_NF_OC_V_O_4, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i256* %merger_network_0_V_data_V, i256* %merger_network_0_V_data_V)
+
+ST_1: stg_28 [1/1] 0.00ns
+newFuncRoot:23  call void (...)* @_ssdm_op_SpecInterface(i256* %merger_network_0_V_data_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_0_V_keep_V [1/1] 0.00ns
+newFuncRoot:24  %merger_network_0_V_keep_V = alloca i32, align 4
+
+ST_1: empty_41 [1/1] 0.00ns
+newFuncRoot:25  %empty_41 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_0_NF_OC_V_O_2, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i32* %merger_network_0_V_keep_V, i32* %merger_network_0_V_keep_V)
+
+ST_1: stg_31 [1/1] 0.00ns
+newFuncRoot:26  call void (...)* @_ssdm_op_SpecInterface(i32* %merger_network_0_V_keep_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_0_V_last_V [1/1] 0.00ns
+newFuncRoot:27  %merger_network_0_V_last_V = alloca i1, align 1
+
+ST_1: empty_42 [1/1] 0.00ns
+newFuncRoot:28  %empty_42 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_0_NF_OC_V_O_1, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i1* %merger_network_0_V_last_V, i1* %merger_network_0_V_last_V)
+
+ST_1: stg_34 [1/1] 0.00ns
+newFuncRoot:29  call void (...)* @_ssdm_op_SpecInterface(i1* %merger_network_0_V_last_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_0_V_id_V [1/1] 0.00ns
+newFuncRoot:30  %merger_network_0_V_id_V = alloca i3, align 1
+
+ST_1: empty_43 [1/1] 0.00ns
+newFuncRoot:31  %empty_43 = call i32 (...)* @_ssdm_op_SpecChannel([27 x i8]* @merger_network_LF_0_NF_OC_V_O_3, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i3* %merger_network_0_V_id_V, i3* %merger_network_0_V_id_V)
+
+ST_1: stg_37 [1/1] 0.00ns
+newFuncRoot:32  call void (...)* @_ssdm_op_SpecInterface(i3* %merger_network_0_V_id_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_0_V_user_V [1/1] 0.00ns
+newFuncRoot:33  %merger_network_0_V_user_V = alloca i12, align 2
+
+ST_1: empty_44 [1/1] 0.00ns
+newFuncRoot:34  %empty_44 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_0_NF_OC_V_O, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i12* %merger_network_0_V_user_V, i12* %merger_network_0_V_user_V)
+
+ST_1: stg_40 [1/1] 0.00ns
+newFuncRoot:35  call void (...)* @_ssdm_op_SpecInterface(i12* %merger_network_0_V_user_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_0_V_data_V [1/1] 0.00ns
+newFuncRoot:36  %merger_host_0_V_data_V = alloca i256, align 8
+
+ST_1: empty_45 [1/1] 0.00ns
+newFuncRoot:37  %empty_45 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_0_NF_OC_V_OC_d, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i256* %merger_host_0_V_data_V, i256* %merger_host_0_V_data_V)
+
+ST_1: stg_43 [1/1] 0.00ns
+newFuncRoot:38  call void (...)* @_ssdm_op_SpecInterface(i256* %merger_host_0_V_data_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_0_V_keep_V [1/1] 0.00ns
+newFuncRoot:39  %merger_host_0_V_keep_V = alloca i32, align 4
+
+ST_1: empty_46 [1/1] 0.00ns
+newFuncRoot:40  %empty_46 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_0_NF_OC_V_OC_k, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i32* %merger_host_0_V_keep_V, i32* %merger_host_0_V_keep_V)
+
+ST_1: stg_46 [1/1] 0.00ns
+newFuncRoot:41  call void (...)* @_ssdm_op_SpecInterface(i32* %merger_host_0_V_keep_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_0_V_last_V [1/1] 0.00ns
+newFuncRoot:42  %merger_host_0_V_last_V = alloca i1, align 1
+
+ST_1: empty_47 [1/1] 0.00ns
+newFuncRoot:43  %empty_47 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_0_NF_OC_V_OC_l, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i1* %merger_host_0_V_last_V, i1* %merger_host_0_V_last_V)
+
+ST_1: stg_49 [1/1] 0.00ns
+newFuncRoot:44  call void (...)* @_ssdm_op_SpecInterface(i1* %merger_host_0_V_last_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_0_V_id_V [1/1] 0.00ns
+newFuncRoot:45  %merger_host_0_V_id_V = alloca i3, align 1
+
+ST_1: empty_48 [1/1] 0.00ns
+newFuncRoot:46  %empty_48 = call i32 (...)* @_ssdm_op_SpecChannel([24 x i8]* @merger_host_LF_0_NF_OC_V_OC_i, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i3* %merger_host_0_V_id_V, i3* %merger_host_0_V_id_V)
+
+ST_1: stg_52 [1/1] 0.00ns
+newFuncRoot:47  call void (...)* @_ssdm_op_SpecInterface(i3* %merger_host_0_V_id_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_host_0_V_user_V [1/1] 0.00ns
+newFuncRoot:48  %merger_host_0_V_user_V = alloca i12, align 2
+
+ST_1: empty_49 [1/1] 0.00ns
+newFuncRoot:49  %empty_49 = call i32 (...)* @_ssdm_op_SpecChannel([26 x i8]* @merger_host_LF_0_NF_OC_V_OC_u, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i12* %merger_host_0_V_user_V, i12* %merger_host_0_V_user_V)
+
+ST_1: stg_55 [1/1] 0.00ns
+newFuncRoot:50  call void (...)* @_ssdm_op_SpecInterface(i12* %merger_host_0_V_user_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_1_V_data_V [1/1] 0.00ns
+newFuncRoot:51  %merger_network_1_V_data_V = alloca i256, align 8
+
+ST_1: empty_50 [1/1] 0.00ns
+newFuncRoot:52  %empty_50 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_1_NF_OC_V_O_4, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i256* %merger_network_1_V_data_V, i256* %merger_network_1_V_data_V)
+
+ST_1: stg_58 [1/1] 0.00ns
+newFuncRoot:53  call void (...)* @_ssdm_op_SpecInterface(i256* %merger_network_1_V_data_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_1_V_keep_V [1/1] 0.00ns
+newFuncRoot:54  %merger_network_1_V_keep_V = alloca i32, align 4
+
+ST_1: empty_51 [1/1] 0.00ns
+newFuncRoot:55  %empty_51 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_1_NF_OC_V_O_2, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i32* %merger_network_1_V_keep_V, i32* %merger_network_1_V_keep_V)
+
+ST_1: stg_61 [1/1] 0.00ns
+newFuncRoot:56  call void (...)* @_ssdm_op_SpecInterface(i32* %merger_network_1_V_keep_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_1_V_last_V [1/1] 0.00ns
+newFuncRoot:57  %merger_network_1_V_last_V = alloca i1, align 1
+
+ST_1: empty_52 [1/1] 0.00ns
+newFuncRoot:58  %empty_52 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_1_NF_OC_V_O_1, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i1* %merger_network_1_V_last_V, i1* %merger_network_1_V_last_V)
+
+ST_1: stg_64 [1/1] 0.00ns
+newFuncRoot:59  call void (...)* @_ssdm_op_SpecInterface(i1* %merger_network_1_V_last_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_1_V_id_V [1/1] 0.00ns
+newFuncRoot:60  %merger_network_1_V_id_V = alloca i3, align 1
+
+ST_1: empty_53 [1/1] 0.00ns
+newFuncRoot:61  %empty_53 = call i32 (...)* @_ssdm_op_SpecChannel([27 x i8]* @merger_network_LF_1_NF_OC_V_O_3, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i3* %merger_network_1_V_id_V, i3* %merger_network_1_V_id_V)
+
+ST_1: stg_67 [1/1] 0.00ns
+newFuncRoot:62  call void (...)* @_ssdm_op_SpecInterface(i3* %merger_network_1_V_id_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: merger_network_1_V_user_V [1/1] 0.00ns
+newFuncRoot:63  %merger_network_1_V_user_V = alloca i12, align 2
+
+ST_1: empty_54 [1/1] 0.00ns
+newFuncRoot:64  %empty_54 = call i32 (...)* @_ssdm_op_SpecChannel([29 x i8]* @merger_network_LF_1_NF_OC_V_O, i32 1, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 16, i32 16, i12* %merger_network_1_V_user_V, i12* %merger_network_1_V_user_V)
+
+ST_1: stg_70 [1/1] 0.00ns
+newFuncRoot:65  call void (...)* @_ssdm_op_SpecInterface(i12* %merger_network_1_V_user_V, [8 x i8]* @ap_fifo_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, i32 2, i32 2, i32 16, i32 16, [1 x i8]* @p_str)
+
+ST_1: DetectState_load [1/1] 0.00ns
+newFuncRoot:66  %DetectState_load = load i2* @DetectState, align 1
+
+ST_1: reply_load [1/1] 0.00ns
+newFuncRoot:67  %reply_load = load i1* @reply, align 1
+
+ST_1: stg_73 [1/1] 1.24ns
+newFuncRoot:68  switch i2 %DetectState_load, label %axi_stream_pass_nw.exit [
+    i2 0, label %0
+    i2 1, label %1
+    i2 -2, label %2
+  ]
+
+ST_1: tmp_2 [1/1] 0.00ns
+:0  %tmp_2 = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, i32 1)
+
+ST_1: stg_75 [1/1] 0.00ns
+:1  br i1 %tmp_2, label %7, label %._crit_edge237.i
+
+ST_1: empty_58 [1/1] 0.00ns
+:0  %empty_58 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V)
+
+ST_1: tmp_data_V_2 [1/1] 0.00ns
+:1  %tmp_data_V_2 = extractvalue { i256, i32, i1, i3, i12 } %empty_58, 0
+
+ST_1: tmp_keep_V_2 [1/1] 0.00ns
+:2  %tmp_keep_V_2 = extractvalue { i256, i32, i1, i3, i12 } %empty_58, 1
+
+ST_1: tmp_last_V_2 [1/1] 0.00ns
+:3  %tmp_last_V_2 = extractvalue { i256, i32, i1, i3, i12 } %empty_58, 2
+
+ST_1: tmp_id_V_2 [1/1] 0.00ns
+:4  %tmp_id_V_2 = extractvalue { i256, i32, i1, i3, i12 } %empty_58, 3
+
+ST_1: tmp_user_V_2 [1/1] 0.00ns
+:5  %tmp_user_V_2 = extractvalue { i256, i32, i1, i3, i12 } %empty_58, 4
+
+ST_1: stg_82 [1/1] 0.00ns
+:6  br i1 %reply_load, label %13, label %14
+
+ST_1: stg_83 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V, i256 %tmp_data_V_2, i32 %tmp_keep_V_2, i1 %tmp_last_V_2, i3 %tmp_id_V_2, i12 %tmp_user_V_2)
+
+ST_1: stg_84 [1/1] 0.00ns
+:1  br label %24
+
+ST_1: stg_85 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V, i256 %tmp_data_V_2, i32 %tmp_keep_V_2, i1 %tmp_last_V_2, i3 %tmp_id_V_2, i12 %tmp_user_V_2)
+
+ST_1: stg_86 [1/1] 0.00ns
+:1  br label %24
+
+ST_1: stg_87 [1/1] 0.00ns
+:0  br i1 %tmp_last_V_2, label %31, label %._crit_edge238.i
+
+ST_1: stg_88 [1/1] 1.09ns
+:0  store i2 0, i2* @DetectState, align 1
+
+ST_1: stg_89 [1/1] 1.09ns
+:1  store i1 false, i1* @reply, align 1
+
+ST_1: stg_90 [1/1] 0.00ns
+:2  br label %._crit_edge238.i
+
+ST_1: stg_91 [1/1] 0.00ns
+._crit_edge238.i:0  br label %._crit_edge237.i
+
+ST_1: stg_92 [1/1] 0.00ns
+._crit_edge237.i:0  br label %axi_stream_pass_nw.exit
+
+ST_1: tmp_1 [1/1] 0.00ns
+:0  %tmp_1 = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, i32 1)
+
+ST_1: stg_94 [1/1] 0.00ns
+:1  br i1 %tmp_1, label %_ifconv, label %._crit_edge234.i
+
+ST_1: empty_56 [1/1] 0.00ns
+_ifconv:0  %empty_56 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V)
+
+ST_1: tmp_data_V_23 [1/1] 0.00ns
+_ifconv:1  %tmp_data_V_23 = extractvalue { i256, i32, i1, i3, i12 } %empty_56, 0
+
+ST_1: tmp_keep_V [1/1] 0.00ns
+_ifconv:2  %tmp_keep_V = extractvalue { i256, i32, i1, i3, i12 } %empty_56, 1
+
+ST_1: tmp_last_V [1/1] 0.00ns
+_ifconv:3  %tmp_last_V = extractvalue { i256, i32, i1, i3, i12 } %empty_56, 2
+
+ST_1: tmp_id_V [1/1] 0.00ns
+_ifconv:4  %tmp_id_V = extractvalue { i256, i32, i1, i3, i12 } %empty_56, 3
+
+ST_1: tmp_user_V [1/1] 0.00ns
+_ifconv:5  %tmp_user_V = extractvalue { i256, i32, i1, i3, i12 } %empty_56, 4
+
+ST_1: p_Result_13 [1/1] 0.00ns
+_ifconv:6  %p_Result_13 = call i256 @llvm.part.set.i256.i16(i256 %tmp_data_V_23, i16 0, i32 176, i32 191)
+
+ST_1: p_Result_14 [1/1] 0.00ns
+_ifconv:7  %p_Result_14 = call i256 @llvm.part.set.i256.i16(i256 %p_Result_13, i16 259, i32 240, i32 255)
+
+ST_1: t_V [1/1] 0.00ns
+_ifconv:8  %t_V = load i32* @count_V_1, align 4
+
+ST_1: p_Val2_s [1/1] 1.70ns
+_ifconv:9  %p_Val2_s = add i32 %t_V, 1
+
+ST_1: p_Result_s_57 [1/1] 0.00ns
+_ifconv:10  %p_Result_s_57 = call i16 @_ssdm_op_PartSelect.i16.i256.i32.i32(i256 %tmp_data_V_23, i32 208, i32 223)
+
+ST_1: tmp_8 [1/1] 1.55ns
+_ifconv:11  %tmp_8 = icmp eq i16 %p_Result_s_57, 5002
+
+ST_1: p_Result_15 [1/1] 0.00ns
+_ifconv:12  %p_Result_15 = call i256 @llvm.part.set.i256.i32(i256 %p_Result_14, i32 %p_Val2_s, i32 144, i32 175)
+
+ST_1: storemerge1 [1/1] 0.84ns
+_ifconv:13  %storemerge1 = select i1 %tmp_8, i32 0, i32 %p_Val2_s
+
+ST_1: buff_data_V [1/1] 0.84ns
+_ifconv:14  %buff_data_V = select i1 %tmp_8, i256 %p_Result_15, i256 %p_Result_14
+
+ST_1: stg_110 [1/1] 0.00ns
+_ifconv:15  store i32 %storemerge1, i32* @count_V_1, align 4
+
+ST_1: tmp [1/1] 0.00ns
+:0  %tmp = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V, i32 1)
+
+ST_1: stg_112 [1/1] 0.00ns
+:1  br i1 %tmp, label %6, label %._crit_edge231.i
+
+ST_1: empty_55 [1/1] 0.00ns
+:0  %empty_55 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_nw2sbu_V_data_V, i32* %prt_nw2sbu_V_keep_V, i1* %prt_nw2sbu_V_last_V, i3* %prt_nw2sbu_V_id_V, i12* %prt_nw2sbu_V_user_V)
+
+ST_1: tmp_data_V_22 [1/1] 0.00ns
+:1  %tmp_data_V_22 = extractvalue { i256, i32, i1, i3, i12 } %empty_55, 0
+
+ST_1: tmp_keep_V_3 [1/1] 0.00ns
+:2  %tmp_keep_V_3 = extractvalue { i256, i32, i1, i3, i12 } %empty_55, 1
+
+ST_1: tmp_last_V_3 [1/1] 0.00ns
+:3  %tmp_last_V_3 = extractvalue { i256, i32, i1, i3, i12 } %empty_55, 2
+
+ST_1: tmp_id_V_3 [1/1] 0.00ns
+:4  %tmp_id_V_3 = extractvalue { i256, i32, i1, i3, i12 } %empty_55, 3
+
+ST_1: tmp_user_V_3 [1/1] 0.00ns
+:5  %tmp_user_V_3 = extractvalue { i256, i32, i1, i3, i12 } %empty_55, 4
+
+ST_1: p_Result_s [1/1] 0.00ns
+:6  %p_Result_s = call i16 @_ssdm_op_PartSelect.i16.i256.i32.i32(i256 %tmp_data_V_22, i32 144, i32 159)
+
+ST_1: tmp_5 [1/1] 1.55ns
+:7  %tmp_5 = icmp eq i16 %p_Result_s, 2048
+
+ST_1: stg_121 [1/1] 0.00ns
+:8  br i1 %tmp_5, label %12, label %._crit_edge232.i
+
+ST_1: p_Result_9 [1/1] 0.00ns
+:0  %p_Result_9 = call i8 @_ssdm_op_PartSelect.i8.i256.i32.i32(i256 %tmp_data_V_22, i32 64, i32 71)
+
+ST_1: tmp_s [1/1] 1.38ns
+:1  %tmp_s = icmp eq i8 %p_Result_9, 17
+
+ST_1: stg_124 [1/1] 0.00ns
+:2  br i1 %tmp_s, label %21, label %._crit_edge232.i
+
+ST_1: stg_125 [1/1] 1.09ns
+._crit_edge232.i:0  br label %22
+
+ST_1: p_Result_17 [1/1] 0.00ns
+:0  %p_Result_17 = call i256 @llvm.part.set.i256.i32(i256 %tmp_data_V_22, i32 -1062731518, i32 16, i32 47)
+
+ST_1: p_Result_18 [1/1] 0.00ns
+:1  %p_Result_18 = call i256 @_ssdm_op_PartSet.i256.i256.i96.i32.i32(i256 %p_Result_17, i96 11308328290305249705890216434, i32 160, i32 255)
+
+ST_1: stg_128 [1/1] 1.09ns
+:2  store i1 true, i1* @reply, align 1
+
+ST_1: stg_129 [1/1] 1.09ns
+:3  br label %22
+
+
+ <State 2>: 3.10ns
+ST_2: stg_130 [1/1] 2.01ns
+_ifconv:16  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V, i256 %buff_data_V, i32 %tmp_keep_V, i1 %tmp_last_V, i3 %tmp_id_V, i12 %tmp_user_V)
+
+ST_2: stg_131 [1/1] 0.00ns
+_ifconv:17  br i1 %tmp_last_V, label %23, label %._crit_edge236.i
+
+ST_2: stg_132 [1/1] 1.09ns
+:0  store i1 false, i1* @reply, align 1
+
+ST_2: stg_133 [1/1] 1.09ns
+:1  store i2 0, i2* @DetectState, align 1
+
+ST_2: stg_134 [1/1] 0.00ns
+:2  br label %._crit_edge236.i
+
+ST_2: stg_135 [1/1] 0.00ns
+._crit_edge236.i:0  br label %._crit_edge234.i
+
+ST_2: stg_136 [1/1] 0.00ns
+._crit_edge234.i:0  br label %axi_stream_pass_nw.exit
+
+ST_2: reply_loc [1/1] 0.00ns
+:0  %reply_loc = phi i1 [ true, %21 ], [ %reply_load, %._crit_edge232.i ]
+
+ST_2: tmp_data_V_3 [1/1] 0.00ns
+:1  %tmp_data_V_3 = phi i256 [ %p_Result_18, %21 ], [ %tmp_data_V_22, %._crit_edge232.i ]
+
+ST_2: storemerge_i [1/1] 0.00ns
+:2  %storemerge_i = phi i2 [ 1, %21 ], [ -2, %._crit_edge232.i ]
+
+ST_2: stg_140 [1/1] 1.09ns
+:3  store i2 %storemerge_i, i2* @DetectState, align 1
+
+ST_2: stg_141 [1/1] 0.00ns
+:4  br i1 %reply_loc, label %29, label %30
+
+ST_2: stg_142 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V, i256 %tmp_data_V_3, i32 %tmp_keep_V_3, i1 %tmp_last_V_3, i3 %tmp_id_V_3, i12 %tmp_user_V_3)
+
+ST_2: stg_143 [1/1] 0.00ns
+:1  br label %36
+
+ST_2: stg_144 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V, i256 %tmp_data_V_3, i32 %tmp_keep_V_3, i1 %tmp_last_V_3, i3 %tmp_id_V_3, i12 %tmp_user_V_3)
+
+ST_2: stg_145 [1/1] 0.00ns
+:1  br label %36
+
+ST_2: stg_146 [1/1] 0.00ns
+:0  br label %._crit_edge231.i
+
+ST_2: stg_147 [1/1] 0.00ns
+._crit_edge231.i:0  br label %axi_stream_pass_nw.exit
+
+ST_2: DetectState_1_load [1/1] 0.00ns
+axi_stream_pass_nw.exit:0  %DetectState_1_load = load i2* @DetectState_1, align 1
+
+ST_2: reply_1_load [1/1] 0.00ns
+axi_stream_pass_nw.exit:1  %reply_1_load = load i1* @reply_1, align 1
+
+ST_2: stg_150 [1/1] 1.24ns
+axi_stream_pass_nw.exit:2  switch i2 %DetectState_1_load, label %axi_stream_pass_host.exit [
+    i2 0, label %3
+    i2 1, label %4
+    i2 -2, label %5
+  ]
+
+ST_2: tmp_6 [1/1] 0.00ns
+:0  %tmp_6 = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, i32 1)
+
+ST_2: stg_152 [1/1] 0.00ns
+:1  br i1 %tmp_6, label %11, label %._crit_edge237.i35
+
+ST_2: empty_62 [1/1] 0.00ns
+:0  %empty_62 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V)
+
+ST_2: tmp_data_V_8 [1/1] 0.00ns
+:1  %tmp_data_V_8 = extractvalue { i256, i32, i1, i3, i12 } %empty_62, 0
+
+ST_2: tmp_keep_V_8 [1/1] 0.00ns
+:2  %tmp_keep_V_8 = extractvalue { i256, i32, i1, i3, i12 } %empty_62, 1
+
+ST_2: tmp_last_V_8 [1/1] 0.00ns
+:3  %tmp_last_V_8 = extractvalue { i256, i32, i1, i3, i12 } %empty_62, 2
+
+ST_2: tmp_id_V_8 [1/1] 0.00ns
+:4  %tmp_id_V_8 = extractvalue { i256, i32, i1, i3, i12 } %empty_62, 3
+
+ST_2: tmp_user_V_8 [1/1] 0.00ns
+:5  %tmp_user_V_8 = extractvalue { i256, i32, i1, i3, i12 } %empty_62, 4
+
+ST_2: stg_159 [1/1] 0.00ns
+:6  br i1 %reply_1_load, label %19, label %20
+
+ST_2: stg_160 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V, i256 %tmp_data_V_8, i32 %tmp_keep_V_8, i1 %tmp_last_V_8, i3 %tmp_id_V_8, i12 %tmp_user_V_8)
+
+ST_2: stg_161 [1/1] 0.00ns
+:1  br label %28
+
+ST_2: stg_162 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V, i256 %tmp_data_V_8, i32 %tmp_keep_V_8, i1 %tmp_last_V_8, i3 %tmp_id_V_8, i12 %tmp_user_V_8)
+
+ST_2: stg_163 [1/1] 0.00ns
+:1  br label %28
+
+ST_2: stg_164 [1/1] 0.00ns
+:0  br i1 %tmp_last_V_8, label %35, label %._crit_edge238.i34
+
+ST_2: stg_165 [1/1] 1.09ns
+:0  store i2 0, i2* @DetectState_1, align 1
+
+ST_2: stg_166 [1/1] 1.09ns
+:1  store i1 false, i1* @reply_1, align 1
+
+ST_2: stg_167 [1/1] 0.00ns
+:2  br label %._crit_edge238.i34
+
+ST_2: stg_168 [1/1] 0.00ns
+._crit_edge238.i34:0  br label %._crit_edge237.i35
+
+ST_2: stg_169 [1/1] 0.00ns
+._crit_edge237.i35:0  br label %axi_stream_pass_host.exit
+
+ST_2: tmp_4 [1/1] 0.00ns
+:0  %tmp_4 = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, i32 1)
+
+ST_2: stg_171 [1/1] 0.00ns
+:1  br i1 %tmp_4, label %10, label %._crit_edge234.i32
+
+ST_2: empty_61 [1/1] 0.00ns
+:0  %empty_61 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V)
+
+ST_2: tmp_data_V_24 [1/1] 0.00ns
+:1  %tmp_data_V_24 = extractvalue { i256, i32, i1, i3, i12 } %empty_61, 0
+
+ST_2: tmp_keep_V_6 [1/1] 0.00ns
+:2  %tmp_keep_V_6 = extractvalue { i256, i32, i1, i3, i12 } %empty_61, 1
+
+ST_2: tmp_last_V_6 [1/1] 0.00ns
+:3  %tmp_last_V_6 = extractvalue { i256, i32, i1, i3, i12 } %empty_61, 2
+
+ST_2: tmp_id_V_6 [1/1] 0.00ns
+:4  %tmp_id_V_6 = extractvalue { i256, i32, i1, i3, i12 } %empty_61, 3
+
+ST_2: tmp_user_V_6 [1/1] 0.00ns
+:5  %tmp_user_V_6 = extractvalue { i256, i32, i1, i3, i12 } %empty_61, 4
+
+ST_2: p_Result_16 [1/1] 0.00ns
+:6  %p_Result_16 = call i256 @llvm.part.set.i256.i16(i256 %tmp_data_V_24, i16 0, i32 176, i32 191)
+
+ST_2: p_Val2_11 [1/1] 0.00ns
+:7  %p_Val2_11 = call i256 @llvm.part.set.i256.i16(i256 %p_Result_16, i16 259, i32 240, i32 255)
+
+ST_2: stg_180 [1/1] 2.01ns
+:8  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V, i256 %p_Val2_11, i32 %tmp_keep_V_6, i1 %tmp_last_V_6, i3 %tmp_id_V_6, i12 %tmp_user_V_6)
+
+ST_2: stg_181 [1/1] 0.00ns
+:9  br i1 %tmp_last_V_6, label %18, label %._crit_edge235.i27
+
+ST_2: stg_182 [1/1] 1.09ns
+:0  store i2 0, i2* @DetectState_1, align 1
+
+ST_2: stg_183 [1/1] 1.09ns
+:1  store i1 false, i1* @reply_1, align 1
+
+ST_2: stg_184 [1/1] 0.00ns
+:2  br label %._crit_edge235.i27
+
+ST_2: t_V_1 [1/1] 0.00ns
+._crit_edge235.i27:0  %t_V_1 = load i32* @count_V, align 4
+
+ST_2: p_Val2_10 [1/1] 1.70ns
+._crit_edge235.i27:1  %p_Val2_10 = add i32 %t_V_1, 1
+
+ST_2: p_Result_8 [1/1] 0.00ns
+._crit_edge235.i27:2  %p_Result_8 = call i16 @_ssdm_op_PartSelect.i16.i256.i32.i32(i256 %tmp_data_V_24, i32 208, i32 223)
+
+ST_2: tmp_10 [1/1] 1.55ns
+._crit_edge235.i27:3  %tmp_10 = icmp eq i16 %p_Result_8, 5002
+
+ST_2: p_Val2_s_64 [1/1] 0.84ns
+._crit_edge235.i27:4  %p_Val2_s_64 = select i1 %tmp_10, i32 0, i32 %p_Val2_10
+
+ST_2: stg_190 [1/1] 0.00ns
+._crit_edge235.i27:5  store i32 %p_Val2_s_64, i32* @count_V, align 4
+
+ST_2: stg_191 [1/1] 0.00ns
+._crit_edge235.i27:6  br label %._crit_edge234.i32
+
+ST_2: stg_192 [1/1] 0.00ns
+._crit_edge234.i32:0  br label %axi_stream_pass_host.exit
+
+ST_2: tmp_3 [1/1] 0.00ns
+:0  %tmp_3 = call i1 @_ssdm_op_NbReadReq.axis.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V, i32 1)
+
+ST_2: stg_194 [1/1] 0.00ns
+:1  br i1 %tmp_3, label %9, label %._crit_edge231.i21
+
+ST_2: empty_60 [1/1] 0.00ns
+:0  %empty_60 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %prt_cx2sbu_V_data_V, i32* %prt_cx2sbu_V_keep_V, i1* %prt_cx2sbu_V_last_V, i3* %prt_cx2sbu_V_id_V, i12* %prt_cx2sbu_V_user_V)
+
+ST_2: tmp_data_V [1/1] 0.00ns
+:1  %tmp_data_V = extractvalue { i256, i32, i1, i3, i12 } %empty_60, 0
+
+ST_2: tmp_keep_V_9 [1/1] 0.00ns
+:2  %tmp_keep_V_9 = extractvalue { i256, i32, i1, i3, i12 } %empty_60, 1
+
+ST_2: tmp_last_V_9 [1/1] 0.00ns
+:3  %tmp_last_V_9 = extractvalue { i256, i32, i1, i3, i12 } %empty_60, 2
+
+ST_2: tmp_id_V_9 [1/1] 0.00ns
+:4  %tmp_id_V_9 = extractvalue { i256, i32, i1, i3, i12 } %empty_60, 3
+
+ST_2: tmp_user_V_9 [1/1] 0.00ns
+:5  %tmp_user_V_9 = extractvalue { i256, i32, i1, i3, i12 } %empty_60, 4
+
+ST_2: p_Result_4 [1/1] 0.00ns
+:6  %p_Result_4 = call i16 @_ssdm_op_PartSelect.i16.i256.i32.i32(i256 %tmp_data_V, i32 144, i32 159)
+
+ST_2: tmp_7 [1/1] 1.55ns
+:7  %tmp_7 = icmp eq i16 %p_Result_4, 2048
+
+ST_2: stg_203 [1/1] 0.00ns
+:8  br i1 %tmp_7, label %17, label %._crit_edge232.i19
+
+ST_2: p_Result_7 [1/1] 0.00ns
+:0  %p_Result_7 = call i8 @_ssdm_op_PartSelect.i8.i256.i32.i32(i256 %tmp_data_V, i32 64, i32 71)
+
+ST_2: tmp_9 [1/1] 1.38ns
+:1  %tmp_9 = icmp eq i8 %p_Result_7, 17
+
+ST_2: stg_206 [1/1] 0.00ns
+:2  br i1 %tmp_9, label %26, label %._crit_edge232.i19
+
+ST_2: stg_207 [1/1] 1.09ns
+._crit_edge232.i19:0  br label %27
+
+ST_2: p_Result_19 [1/1] 0.00ns
+:0  %p_Result_19 = call i256 @llvm.part.set.i256.i32(i256 %tmp_data_V, i32 -1062731518, i32 16, i32 47)
+
+ST_2: p_Result_20 [1/1] 0.00ns
+:1  %p_Result_20 = call i256 @_ssdm_op_PartSet.i256.i256.i96.i32.i32(i256 %p_Result_19, i96 11308328290305249705890216434, i32 160, i32 255)
+
+ST_2: stg_210 [1/1] 1.09ns
+:2  store i1 true, i1* @reply_1, align 1
+
+ST_2: stg_211 [1/1] 1.09ns
+:3  br label %27
+
+ST_2: reply_1_loc [1/1] 0.00ns
+:0  %reply_1_loc = phi i1 [ true, %26 ], [ %reply_1_load, %._crit_edge232.i19 ]
+
+ST_2: tmp_data_V_9 [1/1] 0.00ns
+:1  %tmp_data_V_9 = phi i256 [ %p_Result_20, %26 ], [ %tmp_data_V, %._crit_edge232.i19 ]
+
+ST_2: storemerge_i1 [1/1] 0.00ns
+:2  %storemerge_i1 = phi i2 [ 1, %26 ], [ -2, %._crit_edge232.i19 ]
+
+ST_2: stg_215 [1/1] 1.09ns
+:3  store i2 %storemerge_i1, i2* @DetectState_1, align 1
+
+ST_2: stg_216 [1/1] 0.00ns
+:4  br i1 %reply_1_loc, label %33, label %34
+
+ST_2: stg_217 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V, i256 %tmp_data_V_9, i32 %tmp_keep_V_9, i1 %tmp_last_V_9, i3 %tmp_id_V_9, i12 %tmp_user_V_9)
+
+ST_2: stg_218 [1/1] 0.00ns
+:1  br label %39
+
+ST_2: stg_219 [1/1] 2.01ns
+:0  call void @_ssdm_op_Write.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V, i256 %tmp_data_V_9, i32 %tmp_keep_V_9, i1 %tmp_last_V_9, i3 %tmp_id_V_9, i12 %tmp_user_V_9)
+
+ST_2: stg_220 [1/1] 0.00ns
+:1  br label %39
+
+ST_2: stg_221 [1/1] 0.00ns
+:0  br label %._crit_edge231.i21
+
+ST_2: stg_222 [1/1] 0.00ns
+._crit_edge231.i21:0  br label %axi_stream_pass_host.exit
+
+ST_2: mergeState_load [1/1] 0.00ns
+axi_stream_pass_host.exit:0  %mergeState_load = load i1* @mergeState, align 1
+
+ST_2: stg_224 [1/1] 1.09ns
+axi_stream_pass_host.exit:1  br i1 %mergeState_load, label %8, label %.preheader.i
+
+ST_2: streamSource_V_1_load [1/1] 0.00ns
+:0  %streamSource_V_1_load = load i2* @streamSource_V_1, align 1
+
+ST_2: tmp_12 [1/1] 0.00ns
+:1  %tmp_12 = trunc i2 %streamSource_V_1_load to i1
+
+ST_2: stg_227 [1/1] 0.00ns
+:2  br i1 %tmp_12, label %branch485, label %branch474
+
+
+ <State 3>: 3.10ns
+ST_3: val_assign [1/1] 0.00ns
+.preheader.i:0  %val_assign = phi i2 [ %i, %branch56245 ], [ 0, %axi_stream_pass_host.exit ]
+
+ST_3: tmp_18 [1/1] 0.00ns
+.preheader.i:1  %tmp_18 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %val_assign, i32 1)
+
+ST_3: empty_59 [1/1] 0.00ns
+.preheader.i:2  %empty_59 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)
+
+ST_3: i [1/1] 0.48ns
+.preheader.i:3  %i = add i2 %val_assign, 1
+
+ST_3: stg_232 [1/1] 0.00ns
+.preheader.i:4  br i1 %tmp_18, label %.loopexit.i, label %16
+
+ST_3: tmp_25 [1/1] 0.00ns
+:0  %tmp_25 = trunc i2 %val_assign to i1
+
+ST_3: stg_234 [1/1] 0.00ns
+:1  br i1 %tmp_25, label %branch389, label %branch378
+
+ST_3: tmp_16 [1/1] 0.00ns
+branch378:0  %tmp_16 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V, i32 1)
+
+ST_3: stg_236 [1/1] 1.09ns
+branch378:1  br label %branch56245
+
+ST_3: tmp_15 [1/1] 0.00ns
+branch389:0  %tmp_15 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V, i32 1)
+
+ST_3: stg_238 [1/1] 1.09ns
+branch389:1  br label %branch56245
+
+ST_3: tmp_17 [1/1] 0.00ns
+branch56245:0  %tmp_17 = phi i1 [ %tmp_15, %branch389 ], [ %tmp_16, %branch378 ]
+
+ST_3: stg_240 [1/1] 0.00ns
+branch56245:1  br i1 %tmp_17, label %38, label %.preheader.i
+
+ST_3: stg_241 [1/1] 0.00ns
+:0  store i2 %val_assign, i2* @streamSource_V_1, align 1
+
+ST_3: stg_242 [1/1] 0.00ns
+:1  br i1 %tmp_25, label %branch421, label %branch410
+
+ST_3: empty_70 [1/1] 2.01ns
+branch410:0  %empty_70 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V)
+
+ST_3: tmp_data_V_14 [1/1] 0.00ns
+branch410:1  %tmp_data_V_14 = extractvalue { i256, i32, i1, i3, i12 } %empty_70, 0
+
+ST_3: tmp_keep_V_14 [1/1] 0.00ns
+branch410:2  %tmp_keep_V_14 = extractvalue { i256, i32, i1, i3, i12 } %empty_70, 1
+
+ST_3: tmp_last_V_14 [1/1] 0.00ns
+branch410:3  %tmp_last_V_14 = extractvalue { i256, i32, i1, i3, i12 } %empty_70, 2
+
+ST_3: tmp_id_V_14 [1/1] 0.00ns
+branch410:4  %tmp_id_V_14 = extractvalue { i256, i32, i1, i3, i12 } %empty_70, 3
+
+ST_3: tmp_user_V_14 [1/1] 0.00ns
+branch410:5  %tmp_user_V_14 = extractvalue { i256, i32, i1, i3, i12 } %empty_70, 4
+
+ST_3: stg_249 [1/1] 1.09ns
+branch410:6  br label %44
+
+ST_3: empty_69 [1/1] 2.01ns
+branch421:0  %empty_69 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V)
+
+ST_3: tmp_data_V_13 [1/1] 0.00ns
+branch421:1  %tmp_data_V_13 = extractvalue { i256, i32, i1, i3, i12 } %empty_69, 0
+
+ST_3: tmp_keep_V_13 [1/1] 0.00ns
+branch421:2  %tmp_keep_V_13 = extractvalue { i256, i32, i1, i3, i12 } %empty_69, 1
+
+ST_3: tmp_last_V_13 [1/1] 0.00ns
+branch421:3  %tmp_last_V_13 = extractvalue { i256, i32, i1, i3, i12 } %empty_69, 2
+
+ST_3: tmp_id_V_13 [1/1] 0.00ns
+branch421:4  %tmp_id_V_13 = extractvalue { i256, i32, i1, i3, i12 } %empty_69, 3
+
+ST_3: tmp_user_V_13 [1/1] 0.00ns
+branch421:5  %tmp_user_V_13 = extractvalue { i256, i32, i1, i3, i12 } %empty_69, 4
+
+ST_3: stg_256 [1/1] 1.09ns
+branch421:6  br label %44
+
+ST_3: tmp_user_V_15 [1/1] 0.00ns
+:0  %tmp_user_V_15 = phi i12 [ %tmp_user_V_14, %branch410 ], [ %tmp_user_V_13, %branch421 ]
+
+ST_3: tmp_id_V_15 [1/1] 0.00ns
+:1  %tmp_id_V_15 = phi i3 [ %tmp_id_V_14, %branch410 ], [ %tmp_id_V_13, %branch421 ]
+
+ST_3: tmp_last_V_15 [1/1] 0.00ns
+:2  %tmp_last_V_15 = phi i1 [ %tmp_last_V_14, %branch410 ], [ %tmp_last_V_13, %branch421 ]
+
+ST_3: tmp_keep_V_15 [1/1] 0.00ns
+:3  %tmp_keep_V_15 = phi i32 [ %tmp_keep_V_14, %branch410 ], [ %tmp_keep_V_13, %branch421 ]
+
+ST_3: tmp_data_V_15 [1/1] 0.00ns
+:4  %tmp_data_V_15 = phi i256 [ %tmp_data_V_14, %branch410 ], [ %tmp_data_V_13, %branch421 ]
+
+ST_3: stg_262 [1/1] 0.00ns
+:5  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %sbu2prt_nw_V_data_V, i32* %sbu2prt_nw_V_keep_V, i1* %sbu2prt_nw_V_last_V, i3* %sbu2prt_nw_V_id_V, i12* %sbu2prt_nw_V_user_V, i256 %tmp_data_V_15, i32 %tmp_keep_V_15, i1 %tmp_last_V_15, i3 %tmp_id_V_15, i12 %tmp_user_V_15)
+
+ST_3: stg_263 [1/1] 0.00ns
+:6  br i1 %tmp_last_V_15, label %._crit_edge39.i, label %48
+
+ST_3: stg_264 [1/1] 1.09ns
+:0  store i1 true, i1* @mergeState, align 1
+
+ST_3: stg_265 [1/1] 0.00ns
+:1  br label %._crit_edge39.i
+
+ST_3: stg_266 [1/1] 0.00ns
+._crit_edge39.i:0  br label %.loopexit.i
+
+ST_3: stg_267 [1/1] 0.00ns
+.loopexit.i:0  br label %merger_nw.exit
+
+ST_3: tmp_14 [1/1] 0.00ns
+branch474:0  %tmp_14 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V, i32 1)
+
+ST_3: stg_269 [1/1] 1.09ns
+branch474:1  br label %branch62259
+
+ST_3: tmp_13 [1/1] 0.00ns
+branch485:0  %tmp_13 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V, i32 1)
+
+ST_3: stg_271 [1/1] 1.09ns
+branch485:1  br label %branch62259
+
+ST_3: tmp_11 [1/1] 0.00ns
+branch62259:0  %tmp_11 = phi i1 [ %tmp_13, %branch485 ], [ %tmp_14, %branch474 ]
+
+ST_3: stg_273 [1/1] 0.00ns
+branch62259:1  br i1 %tmp_11, label %32, label %._crit_edge40.i
+
+ST_3: stg_274 [1/1] 0.00ns
+:0  br i1 %tmp_12, label %branch453, label %branch442
+
+ST_3: empty_66 [1/1] 2.01ns
+branch442:0  %empty_66 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_0_V_data_V, i32* %merger_network_0_V_keep_V, i1* %merger_network_0_V_last_V, i3* %merger_network_0_V_id_V, i12* %merger_network_0_V_user_V)
+
+ST_3: tmp_data_V_11 [1/1] 0.00ns
+branch442:1  %tmp_data_V_11 = extractvalue { i256, i32, i1, i3, i12 } %empty_66, 0
+
+ST_3: tmp_keep_V_11 [1/1] 0.00ns
+branch442:2  %tmp_keep_V_11 = extractvalue { i256, i32, i1, i3, i12 } %empty_66, 1
+
+ST_3: tmp_last_V_11 [1/1] 0.00ns
+branch442:3  %tmp_last_V_11 = extractvalue { i256, i32, i1, i3, i12 } %empty_66, 2
+
+ST_3: tmp_id_V_11 [1/1] 0.00ns
+branch442:4  %tmp_id_V_11 = extractvalue { i256, i32, i1, i3, i12 } %empty_66, 3
+
+ST_3: tmp_user_V_11 [1/1] 0.00ns
+branch442:5  %tmp_user_V_11 = extractvalue { i256, i32, i1, i3, i12 } %empty_66, 4
+
+ST_3: stg_281 [1/1] 1.09ns
+branch442:6  br label %42
+
+ST_3: empty_65 [1/1] 2.01ns
+branch453:0  %empty_65 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_network_1_V_data_V, i32* %merger_network_1_V_keep_V, i1* %merger_network_1_V_last_V, i3* %merger_network_1_V_id_V, i12* %merger_network_1_V_user_V)
+
+ST_3: tmp_data_V_10 [1/1] 0.00ns
+branch453:1  %tmp_data_V_10 = extractvalue { i256, i32, i1, i3, i12 } %empty_65, 0
+
+ST_3: tmp_keep_V_10 [1/1] 0.00ns
+branch453:2  %tmp_keep_V_10 = extractvalue { i256, i32, i1, i3, i12 } %empty_65, 1
+
+ST_3: tmp_last_V_10 [1/1] 0.00ns
+branch453:3  %tmp_last_V_10 = extractvalue { i256, i32, i1, i3, i12 } %empty_65, 2
+
+ST_3: tmp_id_V_10 [1/1] 0.00ns
+branch453:4  %tmp_id_V_10 = extractvalue { i256, i32, i1, i3, i12 } %empty_65, 3
+
+ST_3: tmp_user_V_10 [1/1] 0.00ns
+branch453:5  %tmp_user_V_10 = extractvalue { i256, i32, i1, i3, i12 } %empty_65, 4
+
+ST_3: stg_288 [1/1] 1.09ns
+branch453:6  br label %42
+
+ST_3: tmp_user_V_12 [1/1] 0.00ns
+:0  %tmp_user_V_12 = phi i12 [ %tmp_user_V_11, %branch442 ], [ %tmp_user_V_10, %branch453 ]
+
+ST_3: tmp_id_V_12 [1/1] 0.00ns
+:1  %tmp_id_V_12 = phi i3 [ %tmp_id_V_11, %branch442 ], [ %tmp_id_V_10, %branch453 ]
+
+ST_3: tmp_last_V_12 [1/1] 0.00ns
+:2  %tmp_last_V_12 = phi i1 [ %tmp_last_V_11, %branch442 ], [ %tmp_last_V_10, %branch453 ]
+
+ST_3: tmp_keep_V_12 [1/1] 0.00ns
+:3  %tmp_keep_V_12 = phi i32 [ %tmp_keep_V_11, %branch442 ], [ %tmp_keep_V_10, %branch453 ]
+
+ST_3: tmp_data_V_12 [1/1] 0.00ns
+:4  %tmp_data_V_12 = phi i256 [ %tmp_data_V_11, %branch442 ], [ %tmp_data_V_10, %branch453 ]
+
+ST_3: stg_294 [1/1] 0.00ns
+:5  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %sbu2prt_nw_V_data_V, i32* %sbu2prt_nw_V_keep_V, i1* %sbu2prt_nw_V_last_V, i3* %sbu2prt_nw_V_id_V, i12* %sbu2prt_nw_V_user_V, i256 %tmp_data_V_12, i32 %tmp_keep_V_12, i1 %tmp_last_V_12, i3 %tmp_id_V_12, i12 %tmp_user_V_12)
+
+ST_3: stg_295 [1/1] 0.00ns
+:6  br i1 %tmp_last_V_12, label %45, label %._crit_edge41.i
+
+ST_3: stg_296 [1/1] 1.09ns
+:0  store i1 false, i1* @mergeState, align 1
+
+ST_3: stg_297 [1/1] 0.00ns
+:1  br label %._crit_edge41.i
+
+ST_3: stg_298 [1/1] 0.00ns
+._crit_edge41.i:0  br label %._crit_edge40.i
+
+ST_3: stg_299 [1/1] 0.00ns
+._crit_edge40.i:0  br label %merger_nw.exit
+
+ST_3: mergeState_1_load [1/1] 0.00ns
+merger_nw.exit:0  %mergeState_1_load = load i1* @mergeState_1, align 1
+
+ST_3: stg_301 [1/1] 1.09ns
+merger_nw.exit:1  br i1 %mergeState_1_load, label %15, label %.preheader.i45
+
+ST_3: streamSource_V_load [1/1] 0.00ns
+:0  %streamSource_V_load = load i2* @streamSource_V, align 1
+
+ST_3: tmp_26 [1/1] 0.00ns
+:1  %tmp_26 = trunc i2 %streamSource_V_load to i1
+
+ST_3: stg_304 [1/1] 0.00ns
+:2  br i1 %tmp_26, label %branch293, label %branch282
+
+ST_3: tmp_20 [1/1] 0.00ns
+branch282:0  %tmp_20 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V, i32 1)
+
+ST_3: stg_306 [1/1] 1.09ns
+branch282:1  br label %branch668
+
+ST_3: tmp_19 [1/1] 0.00ns
+branch293:0  %tmp_19 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V, i32 1)
+
+ST_3: stg_308 [1/1] 1.09ns
+branch293:1  br label %branch668
+
+
+ <State 4>: 3.10ns
+ST_4: val_assign_1 [1/1] 0.00ns
+.preheader.i45:0  %val_assign_1 = phi i2 [ %i_1, %41 ], [ 1, %merger_nw.exit ]
+
+ST_4: tmp_27 [1/1] 0.00ns
+.preheader.i45:1  %tmp_27 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %val_assign_1, i32 1)
+
+ST_4: empty_63 [1/1] 0.00ns
+.preheader.i45:2  %empty_63 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)
+
+ST_4: stg_312 [1/1] 0.00ns
+.preheader.i45:3  br i1 %tmp_27, label %.loopexit.i48, label %25
+
+ST_4: tmp_28 [1/1] 0.00ns
+:0  %tmp_28 = trunc i2 %val_assign_1 to i1
+
+ST_4: stg_314 [1/1] 0.00ns
+:1  br i1 %tmp_28, label %branch197, label %branch186
+
+ST_4: tmp_23 [1/1] 0.00ns
+branch186:0  %tmp_23 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V, i32 1)
+
+ST_4: stg_316 [1/1] 1.09ns
+branch186:1  br label %branch054
+
+ST_4: tmp_22 [1/1] 0.00ns
+branch197:0  %tmp_22 = call i1 @_ssdm_op_NbReadReq.ap_fifo.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V, i32 1)
+
+ST_4: stg_318 [1/1] 1.09ns
+branch197:1  br label %branch054
+
+ST_4: tmp_24 [1/1] 0.00ns
+branch054:0  %tmp_24 = phi i1 [ %tmp_22, %branch197 ], [ %tmp_23, %branch186 ]
+
+ST_4: stg_320 [1/1] 0.00ns
+branch054:1  br i1 %tmp_24, label %40, label %41
+
+ST_4: i_1 [1/1] 0.48ns
+:0  %i_1 = add i2 %val_assign_1, -1
+
+ST_4: stg_322 [1/1] 0.00ns
+:1  br label %.preheader.i45
+
+ST_4: stg_323 [1/1] 0.00ns
+:0  store i2 %val_assign_1, i2* @streamSource_V, align 1
+
+ST_4: stg_324 [1/1] 0.00ns
+:1  br i1 %tmp_28, label %branch229, label %branch218
+
+ST_4: empty_72 [1/1] 2.01ns
+branch218:0  %empty_72 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V)
+
+ST_4: tmp_data_V_20 [1/1] 0.00ns
+branch218:1  %tmp_data_V_20 = extractvalue { i256, i32, i1, i3, i12 } %empty_72, 0
+
+ST_4: tmp_keep_V_20 [1/1] 0.00ns
+branch218:2  %tmp_keep_V_20 = extractvalue { i256, i32, i1, i3, i12 } %empty_72, 1
+
+ST_4: tmp_last_V_20 [1/1] 0.00ns
+branch218:3  %tmp_last_V_20 = extractvalue { i256, i32, i1, i3, i12 } %empty_72, 2
+
+ST_4: tmp_id_V_20 [1/1] 0.00ns
+branch218:4  %tmp_id_V_20 = extractvalue { i256, i32, i1, i3, i12 } %empty_72, 3
+
+ST_4: tmp_user_V_20 [1/1] 0.00ns
+branch218:5  %tmp_user_V_20 = extractvalue { i256, i32, i1, i3, i12 } %empty_72, 4
+
+ST_4: stg_331 [1/1] 1.09ns
+branch218:6  br label %46
+
+ST_4: empty_71 [1/1] 2.01ns
+branch229:0  %empty_71 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V)
+
+ST_4: tmp_data_V_19 [1/1] 0.00ns
+branch229:1  %tmp_data_V_19 = extractvalue { i256, i32, i1, i3, i12 } %empty_71, 0
+
+ST_4: tmp_keep_V_19 [1/1] 0.00ns
+branch229:2  %tmp_keep_V_19 = extractvalue { i256, i32, i1, i3, i12 } %empty_71, 1
+
+ST_4: tmp_last_V_19 [1/1] 0.00ns
+branch229:3  %tmp_last_V_19 = extractvalue { i256, i32, i1, i3, i12 } %empty_71, 2
+
+ST_4: tmp_id_V_19 [1/1] 0.00ns
+branch229:4  %tmp_id_V_19 = extractvalue { i256, i32, i1, i3, i12 } %empty_71, 3
+
+ST_4: tmp_user_V_19 [1/1] 0.00ns
+branch229:5  %tmp_user_V_19 = extractvalue { i256, i32, i1, i3, i12 } %empty_71, 4
+
+ST_4: stg_338 [1/1] 1.09ns
+branch229:6  br label %46
+
+ST_4: tmp_user_V_21 [1/1] 0.00ns
+:0  %tmp_user_V_21 = phi i12 [ %tmp_user_V_20, %branch218 ], [ %tmp_user_V_19, %branch229 ]
+
+ST_4: tmp_id_V_21 [1/1] 0.00ns
+:1  %tmp_id_V_21 = phi i3 [ %tmp_id_V_20, %branch218 ], [ %tmp_id_V_19, %branch229 ]
+
+ST_4: tmp_last_V_21 [1/1] 0.00ns
+:2  %tmp_last_V_21 = phi i1 [ %tmp_last_V_20, %branch218 ], [ %tmp_last_V_19, %branch229 ]
+
+ST_4: tmp_keep_V_21 [1/1] 0.00ns
+:3  %tmp_keep_V_21 = phi i32 [ %tmp_keep_V_20, %branch218 ], [ %tmp_keep_V_19, %branch229 ]
+
+ST_4: tmp_data_V_21 [1/1] 0.00ns
+:4  %tmp_data_V_21 = phi i256 [ %tmp_data_V_20, %branch218 ], [ %tmp_data_V_19, %branch229 ]
+
+ST_4: stg_344 [1/1] 0.00ns
+:5  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %sbu2prt_cx_V_data_V, i32* %sbu2prt_cx_V_keep_V, i1* %sbu2prt_cx_V_last_V, i3* %sbu2prt_cx_V_id_V, i12* %sbu2prt_cx_V_user_V, i256 %tmp_data_V_21, i32 %tmp_keep_V_21, i1 %tmp_last_V_21, i3 %tmp_id_V_21, i12 %tmp_user_V_21)
+
+ST_4: stg_345 [1/1] 0.00ns
+:6  br i1 %tmp_last_V_21, label %._crit_edge39.i47, label %49
+
+ST_4: stg_346 [1/1] 1.09ns
+:0  store i1 true, i1* @mergeState_1, align 1
+
+ST_4: stg_347 [1/1] 0.00ns
+:1  br label %._crit_edge39.i47
+
+ST_4: stg_348 [1/1] 0.00ns
+._crit_edge39.i47:0  br label %.loopexit.i48
+
+ST_4: stg_349 [1/1] 0.00ns
+.loopexit.i48:0  br label %merger_host_func.exit
+
+ST_4: tmp_21 [1/1] 0.00ns
+branch668:0  %tmp_21 = phi i1 [ %tmp_19, %branch293 ], [ %tmp_20, %branch282 ]
+
+ST_4: stg_351 [1/1] 0.00ns
+branch668:1  br i1 %tmp_21, label %37, label %._crit_edge40.i51
+
+ST_4: stg_352 [1/1] 0.00ns
+:0  br i1 %tmp_26, label %branch261411, label %branch250
+
+ST_4: empty_68 [1/1] 2.01ns
+branch250:0  %empty_68 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_0_V_data_V, i32* %merger_host_0_V_keep_V, i1* %merger_host_0_V_last_V, i3* %merger_host_0_V_id_V, i12* %merger_host_0_V_user_V)
+
+ST_4: tmp_data_V_17 [1/1] 0.00ns
+branch250:1  %tmp_data_V_17 = extractvalue { i256, i32, i1, i3, i12 } %empty_68, 0
+
+ST_4: tmp_keep_V_17 [1/1] 0.00ns
+branch250:2  %tmp_keep_V_17 = extractvalue { i256, i32, i1, i3, i12 } %empty_68, 1
+
+ST_4: tmp_last_V_17 [1/1] 0.00ns
+branch250:3  %tmp_last_V_17 = extractvalue { i256, i32, i1, i3, i12 } %empty_68, 2
+
+ST_4: tmp_id_V_17 [1/1] 0.00ns
+branch250:4  %tmp_id_V_17 = extractvalue { i256, i32, i1, i3, i12 } %empty_68, 3
+
+ST_4: tmp_user_V_17 [1/1] 0.00ns
+branch250:5  %tmp_user_V_17 = extractvalue { i256, i32, i1, i3, i12 } %empty_68, 4
+
+ST_4: stg_359 [1/1] 1.09ns
+branch250:6  br label %43
+
+ST_4: empty_67 [1/1] 2.01ns
+branch261411:0  %empty_67 = call { i256, i32, i1, i3, i12 } @_ssdm_op_Read.ap_fifo.volatile.i256P.i32P.i1P.i3P.i12P(i256* %merger_host_1_V_data_V, i32* %merger_host_1_V_keep_V, i1* %merger_host_1_V_last_V, i3* %merger_host_1_V_id_V, i12* %merger_host_1_V_user_V)
+
+ST_4: tmp_data_V_16 [1/1] 0.00ns
+branch261411:1  %tmp_data_V_16 = extractvalue { i256, i32, i1, i3, i12 } %empty_67, 0
+
+ST_4: tmp_keep_V_16 [1/1] 0.00ns
+branch261411:2  %tmp_keep_V_16 = extractvalue { i256, i32, i1, i3, i12 } %empty_67, 1
+
+ST_4: tmp_last_V_16 [1/1] 0.00ns
+branch261411:3  %tmp_last_V_16 = extractvalue { i256, i32, i1, i3, i12 } %empty_67, 2
+
+ST_4: tmp_id_V_16 [1/1] 0.00ns
+branch261411:4  %tmp_id_V_16 = extractvalue { i256, i32, i1, i3, i12 } %empty_67, 3
+
+ST_4: tmp_user_V_16 [1/1] 0.00ns
+branch261411:5  %tmp_user_V_16 = extractvalue { i256, i32, i1, i3, i12 } %empty_67, 4
+
+ST_4: stg_366 [1/1] 1.09ns
+branch261411:6  br label %43
+
+ST_4: tmp_user_V_18 [1/1] 0.00ns
+:0  %tmp_user_V_18 = phi i12 [ %tmp_user_V_17, %branch250 ], [ %tmp_user_V_16, %branch261411 ]
+
+ST_4: tmp_id_V_18 [1/1] 0.00ns
+:1  %tmp_id_V_18 = phi i3 [ %tmp_id_V_17, %branch250 ], [ %tmp_id_V_16, %branch261411 ]
+
+ST_4: tmp_last_V_18 [1/1] 0.00ns
+:2  %tmp_last_V_18 = phi i1 [ %tmp_last_V_17, %branch250 ], [ %tmp_last_V_16, %branch261411 ]
+
+ST_4: tmp_keep_V_18 [1/1] 0.00ns
+:3  %tmp_keep_V_18 = phi i32 [ %tmp_keep_V_17, %branch250 ], [ %tmp_keep_V_16, %branch261411 ]
+
+ST_4: tmp_data_V_18 [1/1] 0.00ns
+:4  %tmp_data_V_18 = phi i256 [ %tmp_data_V_17, %branch250 ], [ %tmp_data_V_16, %branch261411 ]
+
+ST_4: stg_372 [1/1] 0.00ns
+:5  call void @_ssdm_op_Write.axis.volatile.i256P.i32P.i1P.i3P.i12P(i256* %sbu2prt_cx_V_data_V, i32* %sbu2prt_cx_V_keep_V, i1* %sbu2prt_cx_V_last_V, i3* %sbu2prt_cx_V_id_V, i12* %sbu2prt_cx_V_user_V, i256 %tmp_data_V_18, i32 %tmp_keep_V_18, i1 %tmp_last_V_18, i3 %tmp_id_V_18, i12 %tmp_user_V_18)
+
+ST_4: stg_373 [1/1] 0.00ns
+:6  br i1 %tmp_last_V_18, label %47, label %._crit_edge41.i50
+
+ST_4: stg_374 [1/1] 1.09ns
+:0  store i1 false, i1* @mergeState_1, align 1
+
+ST_4: stg_375 [1/1] 0.00ns
+:1  br label %._crit_edge41.i50
+
+ST_4: stg_376 [1/1] 0.00ns
+._crit_edge41.i50:0  br label %._crit_edge40.i51
+
+ST_4: stg_377 [1/1] 0.00ns
+._crit_edge40.i51:0  br label %merger_host_func.exit
+
+ST_4: stg_378 [1/1] 0.00ns
+merger_host_func.exit:0  call fastcc void @example_axi_stream_pass_alt(i256* %mlx2sbu_V_data_V, i32* %mlx2sbu_V_keep_V, i1* %mlx2sbu_V_last_V, i3* %mlx2sbu_V_id_V, i12* %mlx2sbu_V_user_V, i256* %sbu2mlx_V_data_V, i32* %sbu2mlx_V_keep_V, i1* %sbu2mlx_V_last_V, i3* %sbu2mlx_V_id_V, i12* %sbu2mlx_V_user_V)
+
+ST_4: stg_379 [1/1] 0.00ns
+merger_host_func.exit:1  ret void
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 4.6ns, clock uncertainty: 0.575ns.
+
+ No timing violations. 
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,67 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="axi_stream_pass_nw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="axi_stream_pass_host" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="merger_nw" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="merger_host_func" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="DATAFLOW"/>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="prt_nw2sbu"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="prt_cx2sbu"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2prt_nw"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2prt_cx"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="sbu2mlx"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="INTERFACE">
+<option name="axis" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="mlx2sbu"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="STREAM">
+<option name="variable" positionalBoolean="4" value="merger_network"/>
+<option name="depth" value="16"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="example" label="">
+<pragma name="STREAM">
+<option name="variable" positionalBoolean="4" value="merger_host"/>
+<option name="depth" value="16"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

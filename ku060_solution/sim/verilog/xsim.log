@@ -1,0 +1,793 @@
+#-----------------------------------------------------------
+# xsim v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Oct 15 01:34:54 2019
+# Process ID: 25443
+# Current directory: /home/ahrfry/example/ku060_solution/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/example/xsim_script.tcl}
+# Log file: /home/ahrfry/example/ku060_solution/sim/verilog/xsim.log
+# Journal file: /home/ahrfry/example/ku060_solution/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/example/xsim_script.tcl
+# xsim {example} -autoloadwcfg -tclbatch {example.tcl}
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+source example.tcl
+## run all
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 100010 ps  Iteration: 0  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_fsub_32nsAem_U12/example_ap_fsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 100010 ps  Iteration: 0  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 218 [0.00%] @ "113000"
+// RTL Simulation : 1 / 218 [0.00%] @ "19152000"
+// RTL Simulation : 2 / 218 [0.00%] @ "19451000"
+// RTL Simulation : 3 / 218 [0.00%] @ "19571000"
+// RTL Simulation : 4 / 218 [0.00%] @ "19870000"
+// RTL Simulation : 5 / 218 [0.00%] @ "19989000"
+// RTL Simulation : 6 / 218 [0.00%] @ "20288000"
+// RTL Simulation : 7 / 218 [0.00%] @ "20408000"
+// RTL Simulation : 8 / 218 [0.00%] @ "20707000"
+// RTL Simulation : 9 / 218 [0.00%] @ "20827000"
+// RTL Simulation : 10 / 218 [0.00%] @ "21126000"
+// RTL Simulation : 11 / 218 [0.00%] @ "21245000"
+// RTL Simulation : 12 / 218 [0.00%] @ "21544000"
+// RTL Simulation : 13 / 218 [0.00%] @ "21664000"
+// RTL Simulation : 14 / 218 [0.00%] @ "21963000"
+// RTL Simulation : 15 / 218 [0.00%] @ "22082000"
+// RTL Simulation : 16 / 218 [0.00%] @ "22381000"
+// RTL Simulation : 17 / 218 [0.00%] @ "22501000"
+// RTL Simulation : 18 / 218 [0.00%] @ "22800000"
+// RTL Simulation : 19 / 218 [0.00%] @ "22920000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 23098900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 20 / 218 [0.00%] @ "23251000"
+// RTL Simulation : 21 / 218 [0.00%] @ "23370000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 23549700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 22 / 218 [0.00%] @ "23702000"
+// RTL Simulation : 23 / 218 [0.00%] @ "23821000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24000500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24014300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24028100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24101700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24161500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24207500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24221300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 24 / 218 [0.00%] @ "24382000"
+// RTL Simulation : 25 / 218 [0.00%] @ "24502000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 24681300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 26 / 218 [0.00%] @ "24833000"
+// RTL Simulation : 27 / 218 [0.00%] @ "24953000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25132100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25145900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25159700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25233300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25293100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25339100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25352900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 28 / 218 [0.00%] @ "25514000"
+// RTL Simulation : 29 / 218 [0.00%] @ "25634000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 25812900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 30 / 218 [0.00%] @ "25965000"
+// RTL Simulation : 31 / 218 [0.00%] @ "26084000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 26263700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 32 / 218 [0.00%] @ "26416000"
+// RTL Simulation : 33 / 218 [0.00%] @ "26535000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 26714500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 34 / 218 [0.00%] @ "26866000"
+// RTL Simulation : 35 / 218 [0.00%] @ "26986000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27165300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27179100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27192900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27266500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27326300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27372300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27386100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 36 / 218 [0.00%] @ "27547000"
+// RTL Simulation : 37 / 218 [0.00%] @ "27667000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 27846100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 38 / 218 [0.00%] @ "27998000"
+// RTL Simulation : 39 / 218 [0.00%] @ "28118000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28296900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 40 / 218 [0.00%] @ "28449000"
+// RTL Simulation : 41 / 218 [0.00%] @ "28568000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28747700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28761500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28775300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28848900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28908700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28954700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 28968500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 42 / 218 [0.00%] @ "29130000"
+// RTL Simulation : 43 / 218 [0.00%] @ "29249000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 29428500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 44 / 218 [0.00%] @ "29580000"
+// RTL Simulation : 45 / 218 [0.00%] @ "29700000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 29879300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 46 / 218 [0.00%] @ "30031000"
+// RTL Simulation : 47 / 218 [0.00%] @ "30151000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30330100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 48 / 218 [0.00%] @ "30482000"
+// RTL Simulation : 49 / 218 [0.00%] @ "30602000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30780900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30794700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30808500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30882100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30941900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 30987900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 31001700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 50 / 218 [0.00%] @ "31163000"
+// RTL Simulation : 51 / 218 [0.00%] @ "31282000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 31461700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 52 / 218 [0.00%] @ "31614000"
+// RTL Simulation : 53 / 218 [0.00%] @ "31733000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 31912500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 31926300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 31940100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 32013700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 32073500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 32119500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 32133300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 54 / 218 [0.00%] @ "32294000"
+// RTL Simulation : 55 / 218 [0.00%] @ "32414000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 32593300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 56 / 218 [0.00%] @ "32745000"
+// RTL Simulation : 57 / 218 [0.00%] @ "32865000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 33044100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 58 / 218 [0.00%] @ "33196000"
+// RTL Simulation : 59 / 218 [0.00%] @ "33316000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 33494900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 60 / 218 [0.00%] @ "33647000"
+// RTL Simulation : 61 / 218 [0.00%] @ "33766000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 33945700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 62 / 218 [0.00%] @ "34098000"
+// RTL Simulation : 63 / 218 [0.00%] @ "34217000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 34396500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 64 / 218 [0.00%] @ "34548000"
+// RTL Simulation : 65 / 218 [0.00%] @ "34668000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 34847300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 66 / 218 [0.00%] @ "34999000"
+// RTL Simulation : 67 / 218 [0.00%] @ "35119000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 35298100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 68 / 218 [0.00%] @ "35450000"
+// RTL Simulation : 69 / 218 [0.00%] @ "35570000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 35748900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 70 / 218 [0.00%] @ "35901000"
+// RTL Simulation : 71 / 218 [0.00%] @ "36020000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36199700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36213500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36227300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36300900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36360700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36406700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36420500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 72 / 218 [0.00%] @ "36582000"
+// RTL Simulation : 73 / 218 [0.00%] @ "36701000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 36880500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 74 / 218 [0.00%] @ "37032000"
+// RTL Simulation : 75 / 218 [0.00%] @ "37152000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37331300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 76 / 218 [0.00%] @ "37483000"
+// RTL Simulation : 77 / 218 [0.00%] @ "37603000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37782100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37795900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37809700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37883300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37943100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 37989100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38002900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 78 / 218 [0.00%] @ "38164000"
+// RTL Simulation : 79 / 218 [0.00%] @ "38284000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38462900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38476700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38490500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38564100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38623900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38669900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 38683700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 80 / 218 [0.00%] @ "38845000"
+// RTL Simulation : 81 / 218 [0.00%] @ "38964000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 39143700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 82 / 218 [0.00%] @ "39296000"
+// RTL Simulation : 83 / 218 [0.00%] @ "39415000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 39594500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 84 / 218 [0.00%] @ "39746000"
+// RTL Simulation : 85 / 218 [0.00%] @ "39866000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40045300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 86 / 218 [0.00%] @ "40197000"
+// RTL Simulation : 87 / 218 [0.00%] @ "40317000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40496100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40509900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40523700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40597300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40657100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40703100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 40716900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 88 / 218 [0.00%] @ "40878000"
+// RTL Simulation : 89 / 218 [0.00%] @ "40998000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 41176900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 90 / 218 [0.00%] @ "41329000"
+// RTL Simulation : 91 / 218 [0.00%] @ "41448000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 41627700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 92 / 218 [0.00%] @ "41780000"
+// RTL Simulation : 93 / 218 [0.00%] @ "41899000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42078500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 94 / 218 [0.00%] @ "42230000"
+// RTL Simulation : 95 / 218 [0.00%] @ "42350000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42529300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42543100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42556900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42630500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42690300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42736300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 42750100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 96 / 218 [0.00%] @ "42911000"
+// RTL Simulation : 97 / 218 [0.00%] @ "43031000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43210100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 98 / 218 [0.00%] @ "43362000"
+// RTL Simulation : 99 / 218 [0.00%] @ "43482000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43660900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43674700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43688500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43762100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43821900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43867900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 43881700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 100 / 218 [0.00%] @ "44043000"
+// RTL Simulation : 101 / 218 [0.00%] @ "44162000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44341700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 102 / 218 [0.00%] @ "44494000"
+// RTL Simulation : 103 / 218 [0.00%] @ "44613000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44792500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44806300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44820100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44893700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44953500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 44999500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 45013300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 104 / 218 [0.00%] @ "45174000"
+// RTL Simulation : 105 / 218 [0.00%] @ "45294000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 45473300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 106 / 218 [0.00%] @ "45625000"
+// RTL Simulation : 107 / 218 [0.00%] @ "45745000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 45924100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 108 / 218 [0.00%] @ "46076000"
+// RTL Simulation : 109 / 218 [0.00%] @ "46196000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 46374900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 110 / 218 [0.00%] @ "46527000"
+// RTL Simulation : 111 / 218 [0.00%] @ "46646000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 46825700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 112 / 218 [0.00%] @ "46978000"
+// RTL Simulation : 113 / 218 [0.00%] @ "47097000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47276500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47290300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47304100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47377700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47437500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47483500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47497300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 114 / 218 [0.00%] @ "47658000"
+// RTL Simulation : 115 / 218 [0.00%] @ "47778000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 47957300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 116 / 218 [0.00%] @ "48109000"
+// RTL Simulation : 117 / 218 [0.00%] @ "48229000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 48408100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 118 / 218 [0.00%] @ "48560000"
+// RTL Simulation : 119 / 218 [0.00%] @ "48680000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 48858900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 120 / 218 [0.00%] @ "49011000"
+// RTL Simulation : 121 / 218 [0.00%] @ "49130000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49309700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 122 / 218 [0.00%] @ "49462000"
+// RTL Simulation : 123 / 218 [0.00%] @ "49581000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49760500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49774300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49788100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49861700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49921500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49967500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 49981300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 124 / 218 [0.00%] @ "50142000"
+// RTL Simulation : 125 / 218 [0.00%] @ "50262000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 50441300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 126 / 218 [0.00%] @ "50593000"
+// RTL Simulation : 127 / 218 [0.00%] @ "50713000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 50892100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 128 / 218 [0.00%] @ "51044000"
+// RTL Simulation : 129 / 218 [0.00%] @ "51164000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 51342900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 130 / 218 [0.00%] @ "51495000"
+// RTL Simulation : 131 / 218 [0.00%] @ "51614000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 51793700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 132 / 218 [0.00%] @ "51946000"
+// RTL Simulation : 133 / 218 [0.00%] @ "52065000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 52244500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 134 / 218 [0.00%] @ "52396000"
+// RTL Simulation : 135 / 218 [0.00%] @ "52516000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 52695300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 136 / 218 [0.00%] @ "52847000"
+// RTL Simulation : 137 / 218 [0.00%] @ "52967000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53146100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53159900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53173700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53247300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53307100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53353100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53366900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 138 / 218 [0.00%] @ "53528000"
+// RTL Simulation : 139 / 218 [0.00%] @ "53648000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 53826900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 140 / 218 [0.00%] @ "53979000"
+// RTL Simulation : 141 / 218 [0.00%] @ "54098000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 54277700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 142 / 218 [0.00%] @ "54430000"
+// RTL Simulation : 143 / 218 [0.00%] @ "54549000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 54728500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 144 / 218 [0.00%] @ "54880000"
+// RTL Simulation : 145 / 218 [0.00%] @ "55000000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55179300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55193100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55206900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55280500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55340300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55386300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55400100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 146 / 218 [0.00%] @ "55561000"
+// RTL Simulation : 147 / 218 [0.00%] @ "55681000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 55860100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 148 / 218 [0.00%] @ "56012000"
+// RTL Simulation : 149 / 218 [0.00%] @ "56132000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56310900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56324700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56338500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56412100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56471900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56517900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56531700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 150 / 218 [0.00%] @ "56693000"
+// RTL Simulation : 151 / 218 [0.00%] @ "56812000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 56991700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 152 / 218 [0.00%] @ "57144000"
+// RTL Simulation : 153 / 218 [0.00%] @ "57263000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 57442500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 154 / 218 [0.00%] @ "57594000"
+// RTL Simulation : 155 / 218 [0.00%] @ "57714000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 57893300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 57907100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 57920900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 57994500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 58054300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 58100300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 58114100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 156 / 218 [0.00%] @ "58275000"
+// RTL Simulation : 157 / 218 [0.00%] @ "58395000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 58574100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 158 / 218 [0.00%] @ "58726000"
+// RTL Simulation : 159 / 218 [0.00%] @ "58846000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 59024900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 160 / 218 [0.00%] @ "59177000"
+// RTL Simulation : 161 / 218 [0.00%] @ "59296000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 59475700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 162 / 218 [0.00%] @ "59628000"
+// RTL Simulation : 163 / 218 [0.00%] @ "59747000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 59926500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 164 / 218 [0.00%] @ "60078000"
+// RTL Simulation : 165 / 218 [0.00%] @ "60198000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 60377300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 166 / 218 [0.00%] @ "60529000"
+// RTL Simulation : 167 / 218 [0.00%] @ "60649000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 60828100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 168 / 218 [0.00%] @ "60980000"
+// RTL Simulation : 169 / 218 [0.00%] @ "61100000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 61278900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 170 / 218 [0.00%] @ "61431000"
+// RTL Simulation : 171 / 218 [0.00%] @ "61550000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 61729700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 172 / 218 [0.00%] @ "61882000"
+// RTL Simulation : 173 / 218 [0.00%] @ "62001000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 62180500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 174 / 218 [0.00%] @ "62332000"
+// RTL Simulation : 175 / 218 [0.00%] @ "62452000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 62631300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 176 / 218 [0.00%] @ "62783000"
+// RTL Simulation : 177 / 218 [0.00%] @ "62903000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63082100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63095900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63109700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63183300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63243100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63289100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63302900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 178 / 218 [0.00%] @ "63464000"
+// RTL Simulation : 179 / 218 [0.00%] @ "63584000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63762900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63776700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63790500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63864100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63923900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63969900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 63983700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 180 / 218 [0.00%] @ "64145000"
+// RTL Simulation : 181 / 218 [0.00%] @ "64264000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 64443700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 182 / 218 [0.00%] @ "64596000"
+// RTL Simulation : 183 / 218 [0.00%] @ "64715000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 64894500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 64908300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 64922100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 64995700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65055500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65101500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65115300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 184 / 218 [0.00%] @ "65276000"
+// RTL Simulation : 185 / 218 [0.00%] @ "65396000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65575300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65589100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65602900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65676500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65736300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65782300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 65796100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 186 / 218 [0.00%] @ "65957000"
+// RTL Simulation : 187 / 218 [0.00%] @ "66077000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66256100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66269900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66283700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66357300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66417100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66463100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66476900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 188 / 218 [0.00%] @ "66638000"
+// RTL Simulation : 189 / 218 [0.00%] @ "66758000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66936900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66950700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 66964500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 67038100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 67097900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 67143900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 67157700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 190 / 218 [0.00%] @ "67319000"
+// RTL Simulation : 191 / 218 [0.00%] @ "67438000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 67617700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 192 / 218 [0.00%] @ "67770000"
+// RTL Simulation : 193 / 218 [0.00%] @ "67889000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68068500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68082300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68096100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68169700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68229500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68275500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68289300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 194 / 218 [0.00%] @ "68450000"
+// RTL Simulation : 195 / 218 [0.00%] @ "68570000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 68749300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 196 / 218 [0.00%] @ "68901000"
+// RTL Simulation : 197 / 218 [0.00%] @ "69021000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 69200100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 198 / 218 [0.00%] @ "69352000"
+// RTL Simulation : 199 / 218 [0.00%] @ "69472000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 69650900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 200 / 218 [0.00%] @ "69803000"
+// RTL Simulation : 201 / 218 [0.00%] @ "69922000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 70101700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 202 / 218 [0.00%] @ "70254000"
+// RTL Simulation : 203 / 218 [0.00%] @ "70373000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 70552500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 204 / 218 [0.00%] @ "70704000"
+// RTL Simulation : 205 / 218 [0.00%] @ "70824000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 71003300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 206 / 218 [0.00%] @ "71155000"
+// RTL Simulation : 207 / 218 [0.00%] @ "71275000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 71454100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 208 / 218 [0.00%] @ "71606000"
+// RTL Simulation : 209 / 218 [0.00%] @ "71726000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 71904900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 71918700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 71932500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72006100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72065900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72111900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72125700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 210 / 218 [0.00%] @ "72287000"
+// RTL Simulation : 211 / 218 [0.00%] @ "72406000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72585700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72599500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72613300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72686900 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72746700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72792700 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 72806500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 212 / 218 [0.00%] @ "72968000"
+// RTL Simulation : 213 / 218 [0.00%] @ "73087000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 73266500 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 214 / 218 [0.00%] @ "73418000"
+// RTL Simulation : 215 / 218 [0.00%] @ "73538000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 73717300 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 216 / 218 [0.00%] @ "73869000"
+// RTL Simulation : 217 / 218 [0.00%] @ "73989000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 74168100 ps  Iteration: 4  Process: /apatb_example_top/AESL_inst_example/Block_codeRepl1510_p_U0/example_faddfsub_zec_U11/example_ap_faddfsub_6_full_dsp_32_u/U0/i_synth/addsub_op/ADDSUB/speed_op/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/DSP/prcs_opmode_drc  File: /opt/Xilinx/Vivado/2016.4/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 218 / 218 [0.00%] @ "74320000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 74338300 ps : File "/home/ahrfry/example/ku060_solution/sim/verilog/example.autotb.v" Line 644
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Oct 15 01:35:06 2019...

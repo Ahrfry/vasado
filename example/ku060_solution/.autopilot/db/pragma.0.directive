@@ -1,0 +1,96 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="dup" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="dup_array" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="dup2" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="dup3" label="">
+<pragma name="PIPELINE">
+<option name="II" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="dup4" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="step" label="">
+<pragma name="PIPELINE">
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="link_axi_stream" label="">
+<pragma name="PIPELINE">
+<option name="ii" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="link_fifo" label="">
+<pragma name="PIPELINE">
+<option name="ii" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="link_axi_to_fifo" label="">
+<pragma name="PIPELINE">
+<option name="ii" value="1"/>
+<option name="enable_flush" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="get_byte" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="write_byte" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="memcpy" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="memcpy" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="memcpy" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="memcpy" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="ap_uint_to_char" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="ap_uint_to_char" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="memset" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="memset" label="">
+<pragma name="UNROLL"/>
+</directive>
+<directive functionLabel="" functionName="bytes_to_int" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="int_to_bytes" label="">
+<pragma name="INLINE"/>
+</directive>
+<directive functionLabel="" functionName="mask_last_word" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="ret"/>
+<option name="complete" positionalBoolean="type" value=""/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

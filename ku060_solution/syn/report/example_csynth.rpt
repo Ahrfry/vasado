@@ -1,0 +1,157 @@
+
+
+================================================================
+== Vivado HLS Report for 'example'
+================================================================
+* Date:           Tue Oct 15 01:33:05 2019
+
+* Version:        2016.4 (Build 1756540 on Mon Jan 23 19:31:01 MST 2017)
+* Project:        example
+* Solution:       ku060_solution
+* Product family: kintexu
+* Target device:  xcku060-ffva1156-1l-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   4.60|      4.55|        0.00|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+------+-----+------+----------+
+    |   Latency  |  Interval  | Pipeline |
+    | min |  max | min |  max |   Type   |
+    +-----+------+-----+------+----------+
+    |   14|  4390|   15|  4391| dataflow |
+    +-----+------+-----+------+----------+
+
+    + Detail: 
+        * Instance: 
+        +---------------------------------+----------------------+-----+------+-----+------+---------+
+        |                                 |                      |   Latency  |  Interval  | Pipeline|
+        |             Instance            |        Module        | min |  max | min |  max |   Type  |
+        +---------------------------------+----------------------+-----+------+-----+------+---------+
+        |grp_Block_codeRepl1510_p_fu_158  |Block_codeRepl1510_p  |   14|  4390|   14|  4390|   none  |
+        +---------------------------------+----------------------+-----+------+-----+------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+--------+
+|       Name      | BRAM_18K| DSP48E|   FF   |   LUT  |
++-----------------+---------+-------+--------+--------+
+|DSP              |        -|      -|       -|       -|
+|Expression       |        -|      -|       -|       -|
+|FIFO             |        -|      -|       -|       -|
+|Instance         |       87|     10|   13521|   15622|
+|Memory           |        -|      -|       -|       -|
+|Multiplexer      |        -|      -|       -|       -|
+|Register         |        -|      -|       -|       -|
++-----------------+---------+-------+--------+--------+
+|Total            |       87|     10|   13521|   15622|
++-----------------+---------+-------+--------+--------+
+|Available        |     2160|   2760|  663360|  331680|
++-----------------+---------+-------+--------+--------+
+|Utilization (%)  |        4|   ~0  |       2|       4|
++-----------------+---------+-------+--------+--------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+-------+-------+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|   FF  |  LUT  |
+    +-------------------------+----------------------+---------+-------+-------+-------+
+    |Block_codeRepl1510_p_U0  |Block_codeRepl1510_p  |       87|     10|  13521|  15622|
+    +-------------------------+----------------------+---------+-------+-------+-------+
+    |Total                    |                      |       87|     10|  13521|  15622|
+    +-------------------------+----------------------+---------+-------+-------+-------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+---------------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  |    Source Object    |    C Type    |
++-------------------+-----+-----+------------+---------------------+--------------+
+|prt_nw2sbu_TDATA   |  in |  256|    axis    | prt_nw2sbu_V_data_V |    pointer   |
+|prt_nw2sbu_TKEEP   |  in |   32|    axis    | prt_nw2sbu_V_keep_V |    pointer   |
+|prt_nw2sbu_TLAST   |  in |    1|    axis    | prt_nw2sbu_V_last_V |    pointer   |
+|prt_nw2sbu_TID     |  in |    3|    axis    |  prt_nw2sbu_V_id_V  |    pointer   |
+|prt_nw2sbu_TUSER   |  in |   12|    axis    | prt_nw2sbu_V_user_V |    pointer   |
+|prt_nw2sbu_TVALID  |  in |    1|    axis    | prt_nw2sbu_V_user_V |    pointer   |
+|prt_nw2sbu_TREADY  | out |    1|    axis    | prt_nw2sbu_V_user_V |    pointer   |
+|prt_cx2sbu_TDATA   |  in |  256|    axis    | prt_cx2sbu_V_data_V |    pointer   |
+|prt_cx2sbu_TKEEP   |  in |   32|    axis    | prt_cx2sbu_V_keep_V |    pointer   |
+|prt_cx2sbu_TLAST   |  in |    1|    axis    | prt_cx2sbu_V_last_V |    pointer   |
+|prt_cx2sbu_TID     |  in |    3|    axis    |  prt_cx2sbu_V_id_V  |    pointer   |
+|prt_cx2sbu_TUSER   |  in |   12|    axis    | prt_cx2sbu_V_user_V |    pointer   |
+|prt_cx2sbu_TVALID  |  in |    1|    axis    | prt_cx2sbu_V_user_V |    pointer   |
+|prt_cx2sbu_TREADY  | out |    1|    axis    | prt_cx2sbu_V_user_V |    pointer   |
+|mlx2sbu_TDATA      |  in |  256|    axis    |   mlx2sbu_V_data_V  |    pointer   |
+|mlx2sbu_TKEEP      |  in |   32|    axis    |   mlx2sbu_V_keep_V  |    pointer   |
+|mlx2sbu_TLAST      |  in |    1|    axis    |   mlx2sbu_V_last_V  |    pointer   |
+|mlx2sbu_TID        |  in |    3|    axis    |    mlx2sbu_V_id_V   |    pointer   |
+|mlx2sbu_TUSER      |  in |   12|    axis    |   mlx2sbu_V_user_V  |    pointer   |
+|mlx2sbu_TVALID     |  in |    1|    axis    |   mlx2sbu_V_user_V  |    pointer   |
+|mlx2sbu_TREADY     | out |    1|    axis    |   mlx2sbu_V_user_V  |    pointer   |
+|sbu2prt_cx_TDATA   | out |  256|    axis    | sbu2prt_cx_V_data_V |    pointer   |
+|sbu2prt_cx_TKEEP   | out |   32|    axis    | sbu2prt_cx_V_keep_V |    pointer   |
+|sbu2prt_cx_TLAST   | out |    1|    axis    | sbu2prt_cx_V_last_V |    pointer   |
+|sbu2prt_cx_TID     | out |    3|    axis    |  sbu2prt_cx_V_id_V  |    pointer   |
+|sbu2prt_cx_TUSER   | out |   12|    axis    | sbu2prt_cx_V_user_V |    pointer   |
+|sbu2prt_cx_TVALID  | out |    1|    axis    | sbu2prt_cx_V_user_V |    pointer   |
+|sbu2prt_cx_TREADY  |  in |    1|    axis    | sbu2prt_cx_V_user_V |    pointer   |
+|sbu2prt_nw_TDATA   | out |  256|    axis    | sbu2prt_nw_V_data_V |    pointer   |
+|sbu2prt_nw_TKEEP   | out |   32|    axis    | sbu2prt_nw_V_keep_V |    pointer   |
+|sbu2prt_nw_TLAST   | out |    1|    axis    | sbu2prt_nw_V_last_V |    pointer   |
+|sbu2prt_nw_TID     | out |    3|    axis    |  sbu2prt_nw_V_id_V  |    pointer   |
+|sbu2prt_nw_TUSER   | out |   12|    axis    | sbu2prt_nw_V_user_V |    pointer   |
+|sbu2prt_nw_TVALID  | out |    1|    axis    | sbu2prt_nw_V_user_V |    pointer   |
+|sbu2prt_nw_TREADY  |  in |    1|    axis    | sbu2prt_nw_V_user_V |    pointer   |
+|sbu2mlx_TDATA      | out |  256|    axis    |   sbu2mlx_V_data_V  |    pointer   |
+|sbu2mlx_TKEEP      | out |   32|    axis    |   sbu2mlx_V_keep_V  |    pointer   |
+|sbu2mlx_TLAST      | out |    1|    axis    |   sbu2mlx_V_last_V  |    pointer   |
+|sbu2mlx_TID        | out |    3|    axis    |    sbu2mlx_V_id_V   |    pointer   |
+|sbu2mlx_TUSER      | out |   12|    axis    |   sbu2mlx_V_user_V  |    pointer   |
+|sbu2mlx_TVALID     | out |    1|    axis    |   sbu2mlx_V_user_V  |    pointer   |
+|sbu2mlx_TREADY     |  in |    1|    axis    |   sbu2mlx_V_user_V  |    pointer   |
+|ap_clk             |  in |    1| ap_ctrl_hs |       example       | return value |
+|ap_rst_n           |  in |    1| ap_ctrl_hs |       example       | return value |
+|ap_done            | out |    1| ap_ctrl_hs |       example       | return value |
+|ap_start           |  in |    1| ap_ctrl_hs |       example       | return value |
+|ap_ready           | out |    1| ap_ctrl_hs |       example       | return value |
+|ap_idle            | out |    1| ap_ctrl_hs |       example       | return value |
++-------------------+-----+-----+------------+---------------------+--------------+
+
